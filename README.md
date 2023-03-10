@@ -6,6 +6,10 @@
 
 <img src="./image/logo.png" alt="Logo" width="170">
 
+[![RustMinerSystem][rustminersystem.io-badge]][rustminersystem.io]
+[![Downloads][downloads-badge]][releases]
+[![Stargazers][stars-shield]][stars-url]
+
 <a href="">English</a>｜<a href="">简体中文</a>
 
 The powerful and experienced monitoring and recording system can solve the abnormal situation of the farm immediately.
@@ -26,3 +30,12 @@ High-performance, next-generation operation and maintenance experience, which is
 
 </div>
 
+
+
+[rustminersystem.io]: https://github.com/EvilGenius-dot/RustMinerSystem
+[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v0.0.1-green?logo=rust
+[downloads-badge]: https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&logoColor=white&style=flat-square
+[releases]: https://github.com/EvilGenius-dot/RustMinerSystem/releases
+[stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
+[stars-shield]: https://img.shields.io/github/stars/EvilGenius-dot/RustMinerSystem.svg?style=flat
+[stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
