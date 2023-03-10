@@ -28,6 +28,10 @@ Perfect control logic, even if the service charge is turned on, the mine pool en
 Based on the development of Rust, efficient language brings unparalleled performance.
 High-performance, next-generation operation and maintenance experience, which is a professional farm operation and maintenance system-RustMinerSystem brought by the top R&D team and RUST experts in Silicon Valley
 
+<img src="./image/1.png" alt="Logo" width="670">
+
+(Partial Preview)
+
 </div>
 
 
