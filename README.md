@@ -42,6 +42,18 @@ Telegram：<a href="sadfsadfasf">sadfsadfasf</a>
 
 Discord：<a href="sadfasfdasfsa">sadfasfdasfsa</a>
 
+# Supported algorithms
+
+For the supported algorithm, the corresponding currency will be updated without heat at any time, and the client 0 will bear the burden
+
+
+| arithmetic      | Support     | Relevant currency |
+| --------------- | ------------| ------------------|
+| SHA256          | ✅          | BTC、BCH、BSV...   |
+| ETHASH          | ✅          | ETC、ETHW、ETHF... |
+| SCRYPT          | ✅          | LITE、DIGI、GOLD...|
+
+
 # Service Agreement
 
 RustMinerSystem is subject to the supervision of Hong Kong laws. Please note that the legal requirements of various countries/regions may restrict such products and services. Therefore, this product and service as well as some functions may not be available or may be restricted in some jurisdictions or regions or some users. You should understand and comply with the local laws and regulations. If you use this product, the default representative accepts the above license. If the legal problems caused by this product are irrelevant to this product.
@@ -63,7 +75,7 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
    Select your applicable operating system
 
-   <details>
+   <details open>
    <summary>Linux</summary>
 
    > Run the following shell instructions to run the toolkit
@@ -77,7 +89,7 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
    </details>
 
-   <details>
+   <details open>
    <summary>Windows</summary>
 
    > The recommended way to install zoxide is via `winget`:
@@ -104,13 +116,9 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 Release of internal test version
 ```
 
-# Supported algorithms
+# Other issues
 
-For the supported algorithm, the corresponding currency will be updated without heat at any time, and the client 0 will bear the burden
+This is a free software, which does not charge any fees. It only takes 0.5% of the computing power of the terminal equipment from the technical point of view as a technical return. Billing capacity may fluctuate up and down due to the logic of the mining pool in different currencies. Generally, the floating range will not exceed+-% 0.3
 
 
-| arithmetic      | Support     | Relevant currency |
-| --------------- | ------------| ------------------|
-| SHA256          | ✅          | BTC、BCH、BSV...   |
-| ETHASH          | ✅          | ETC、ETHW、ETHF... |
-| SCRYPT          | ✅          | LITE、DIGI、GOLD...|
+
