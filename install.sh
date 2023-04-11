@@ -94,7 +94,7 @@ elif [ "$lang_choice" = "2" ]; then
     prompt_port="6. 修改启动端口"
     prompt_ulimit="7. 解除Linux系统连接数限制（需要重启服务器生效）"
     prompt_auto_start="8. 设置开机启动"
-    prompt_disable_auto_start="9. 关闭开机启动..."
+    prompt_disable_auto_start="9. 关闭开机启动"
     prompt_status="10. 查看程序运行状态"
     prompt_error_log="11. 查看错误日志"
     prompt_clear_log="12. 清理日志文件"
@@ -118,7 +118,7 @@ elif [ "$lang_choice" = "2" ]; then
     m_12="进程"
     m_13="终止"
     m_14="设置开机启动"
-    m_15="关闭开机启动"
+    m_15="关闭开机启动..."
     m_16="失败"
     m_17="未发现环境变量配置文件, 开始创建"
     m_18="修改系统连接数限制"
@@ -279,7 +279,7 @@ kill_process() {
   echo "${m_13} $process_name ."
 }
 
-echo "--------111------"
+echo "--------222------"
 
 # 设置开机启动且进程守护
 enable_autostart() {
