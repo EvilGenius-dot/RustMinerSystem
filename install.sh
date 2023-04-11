@@ -279,8 +279,6 @@ kill_process() {
   echo "${m_13} $process_name ."
 }
 
-echo "--------333------"
-
 # 设置开机启动且进程守护
 enable_autostart() {
     echo "${m_14}"
