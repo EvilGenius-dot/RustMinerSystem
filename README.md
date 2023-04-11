@@ -91,7 +91,7 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
    > Run the following shell instructions to run the toolkit
    >
    > ```sh
-   > curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
+   >  bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/install.sh)
    > ```
    >
    > After running successfully, you will see the following menu.
@@ -102,27 +102,19 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
    <details open>
    <summary>Windows</summary>
 
-   > The recommended way to install zoxide is via `winget`:
+   > Please download the specified version directly from the Windows directory of this project:
    >
    > ```sh
-   > winget install zoxide
+   > https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/windows
    > ```
    >
-   > Or, you can use an alternative package manager:
-   >
-   > | Repository      | Instructions                          |
-   > | --------------- | ------------------------------------- |
-   > | **[crates.io]** | `cargo install zoxide --locked`       |
-   > | [Chocolatey]    | `choco install zoxide`                |
-   > | [conda-forge]   | `conda install -c conda-forge zoxide` |
-   > | [Scoop]         | `scoop install zoxide`                |
 
    </details>
 
 
 # Version Log
 ```
-0.0.1
+0.1.0
 Release of internal test version
 ```
 
