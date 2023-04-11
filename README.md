@@ -6,7 +6,7 @@
 
 <h2>A mine pool level operation and maintenance tools👍 </h2>
 
-<img src="./image/logo.png" alt="Logo" width="170">
+<img src="/image/logo.png" alt="Logo" width="170">
 
 [![RustMinerSystem][rustminersystem.io-badge]][rustminersystem.io]
 [![Downloads][downloads-badge]][releases]
@@ -34,7 +34,7 @@ High-performance, next-generation operation and maintenance experience, which is
 
 (Partial Preview)
 
-<img src="./image/1.png" alt="Logo" width="670">
+<img src="/image/1.png" alt="Logo" width="670">
 
 </div>
 
@@ -46,9 +46,9 @@ Telegram：<a href="https://t.me/+Zrz9d5gUR7YzOTVl">https://t.me/+Zrz9d5gUR7YzOT
 
 # Special thanks
 
-<img src="./image/icon-logo-blue.png" alt="Logo" width="100">
+<img src="/image/icon-logo-blue.png" alt="Logo" width="100">
 
-<img src="./image/poolin.svg" alt="Logo" width="100">
+<img src="/image/poolin.svg" alt="Logo" width="100">
 
 <p>Thanks for the technical support provided by the mine pool😊</p>
 
