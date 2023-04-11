@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSION="0.1.0"
-DOWNLOAD_HOST="http://192.168.33.222:3000"
+DOWNLOAD_HOST="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/linux"
 ORIGIN_EXEC="rustminersystem-${VERSION}"
 
 SERVICE_NAME="rustservice"
