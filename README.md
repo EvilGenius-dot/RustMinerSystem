@@ -40,9 +40,9 @@ High-performance, next-generation operation and maintenance experience, which is
 
 # Join the discussion group
 
-Telegram：<a href="sadfsadfasf">sadfsadfasf</a>
+Telegram：<a href="https://t.me/+Zrz9d5gUR7YzOTVl">https://t.me/+Zrz9d5gUR7YzOTVl</a>
 
-Discord：<a href="sadfasfdasfsa">sadfasfdasfsa</a>
+<!-- Discord：<a href="sadfasfdasfsa">sadfasfdasfsa</a> -->
 
 # Special thanks
 

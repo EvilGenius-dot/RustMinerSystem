@@ -57,7 +57,7 @@ if [ "$lang_choice" = "1" ]; then
     m_12="Process"
     m_13="Terminated"
     m_14="Set up automatic startup"
-    m_15="Disable automatic startup"
+    m_15="Disable automatic startup..."
     m_16="Failed"
     m_17="Environment variable configuration file not found, creating one now"
     m_18="Modify system connection limit"
@@ -279,7 +279,7 @@ kill_process() {
   echo "${m_13} $process_name ."
 }
 
-echo "--------222------"
+echo "--------333------"
 
 # 设置开机启动且进程守护
 enable_autostart() {
@@ -297,6 +297,7 @@ WorkingDirectory=$PATH_RUST/
 Restart=always
 StandardOutput=file:$PATH_RUST/nohup.out
 StandardError=file:$PATH_RUST/err.log
+TimeoutStopSec=5
 
 [Install]
 WantedBy=multi-user.target
