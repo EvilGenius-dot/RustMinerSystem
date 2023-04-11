@@ -59,9 +59,10 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 | arithmetic      | Support     | Relevant currency |
 | --------------- | ------------| ------------------|
-| SHA256          | ✅          | BTC、BCH、BSV...   |
-| ETHASH          | ✅          | ETC、ETHW、ETHF... |
-| SCRYPT          | ✅          | LITE、DIGI、GOLD...|
+| SHA256          | ✅          | BTC、BCH...        
+| ETHASH          | ✅          | ETC、ETHW、ETHF、ETC+ZIL、ETHW+ZIL、ETHF+ZIL
+| SCRYPT          | ✅          | LTC...
+| KHEAVYHASH      | ✅          | KASPA...
 
 
 # Service Agreement
