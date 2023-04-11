@@ -4,7 +4,7 @@
 
 # RustMinerSystem
 
-<h2>A mine pool level operation and maintenance tools👍</h2>
+<h2>A mine pool level operation and maintenance tools👍 </h2>
 
 <img src="./image/logo.png" alt="Logo" width="170">
 
