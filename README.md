@@ -12,7 +12,7 @@
 [![Downloads][downloads-badge]][releases]
 [![Stargazers][stars-shield]][stars-url]
 
-<a href="https://github.com/EvilGenius-dot/RustMinerSystem/blob/main/README.md">English</a>｜<a href="">简体中文</a>
+<a href="https://github.com/EvilGenius-dot/RustMinerSystem/blob/main/README.md">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem/blob/main/i18n/zh_cn.md">简体中文</a>
 
 The powerful and experienced monitoring and recording system can solve the abnormal situation of the farm immediately.
 
