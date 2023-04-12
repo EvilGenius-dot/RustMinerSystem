@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="0.1.0"
+VERSION="0.1.2"
 DOWNLOAD_HOST="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/linux"
 ORIGIN_EXEC="rustminersystem-${VERSION}"
 
@@ -324,7 +324,8 @@ disable_autostart() {
 
 
 ISSUE() {
-    echo "1.0.0"
+    echo "0.1.0"
+    echo "0.1.2"
 }
 
 filterResult() {

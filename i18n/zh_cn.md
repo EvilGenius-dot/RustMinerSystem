@@ -115,6 +115,11 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+0.1.2
+Fixed a serious issue of task chaos for multiple devices under Rust
+
+Fixed issue where kas was unable to receive tasks
+
 0.1.0
 Release of internal test version
 ```
