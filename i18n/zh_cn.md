@@ -115,6 +115,9 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+0.1.4
+Optimize e9 and e9pro
+
 0.1.3
 Optimizing Antminer s17
 
