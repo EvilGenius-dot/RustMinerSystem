@@ -27,9 +27,13 @@ The front-end client has high-performance TCP integration and compression techno
 The commission system compatible with various algorithms can reasonably improve the mine profits.
 
 Built-in algorithm engines can update popular currencies without heating.
+
+The dashboard is perfectly compatible with various devices, with PC, MOBILE, and PAD at a glance.
+
 Perfect control logic, even if the service charge is turned on, the mine pool end will not show that the equipment is offline.
 
 Based on the development of Rust, efficient language brings unparalleled performance.
+
 High-performance, next-generation operation and maintenance experience, which is a professional farm operation and maintenance system-RustMinerSystem brought by the top R&D team and RUST experts in Silicon Valley
 
 (Partial Preview)
@@ -73,7 +77,7 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 
 [rustminersystem.io]: https://github.com/EvilGenius-dot/RustMinerSystem
-[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v0.0.1-green?logo=rust
+[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v0.0.9-green?logo=rust
 [downloads-badge]: https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&logoColor=white&style=flat-square
 [releases]: https://github.com/EvilGenius-dot/RustMinerSystem/releases
 [stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
@@ -115,6 +119,15 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+0.9.9
+Optimized a lot of details
+
+Optimized Yami equipment
+
+Further reducing the probability of ineffectiveness (although already very low)
+
+Optimized memory and CPU usage
+
 0.1.4
 Optimize e9 and e9pro
 

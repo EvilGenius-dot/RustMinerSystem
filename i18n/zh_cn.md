@@ -4,7 +4,7 @@
 
 # RustMinerSystem
 
-<h2>A mine pool level operation and maintenance tools👍 </h2>
+<h2>一款矿池级别的运维工具👍 </h2>
 
 <img src="/image/logo.png" alt="Logo" width="170">
 
@@ -14,47 +14,51 @@
 
 <a href="https://github.com/EvilGenius-dot/RustMinerSystem/blob/main/README.md">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem/blob/main/i18n/zh_cn.md">简体中文</a>
 
-The powerful and experienced monitoring and recording system can solve the abnormal situation of the farm immediately.
+强大且经验丰富的监控和记录系统可以立即解决矿场异常情况。
 
-The hash rate statistics at the level of mining pool, and the hash rate of any currency can be seen at a glance
+在矿池级别上统计哈希率，并可以一目了然地查看任何货币的哈希率。
 
-Automatically adjust the working mode and data flow according to the terminal equipment to avoid highly ineffective task sharing
+根据终端设备自动调整工作模式和数据流量，避免高度低效的任务共享。
 
-The active defense and filtering system improves the security of the environment and finds hazards in time.
+主动防御和过滤系统提高了环境的安全性并及时发现危险。
 
-The front-end client has high-performance TCP integration and compression technology. No matter how far the farm is from the mining pool, they can effectively reduce farm delay and prevent all middlemen from attacking.
+前端客户端具有高性能的TCP集成和压缩技术。无论矿场距离矿池有多远，它们都可以有效地减少矿场延迟并防止所有中间人攻击。
 
-The commission system compatible with various algorithms can reasonably improve the mine profits.
+兼容各种算法的佣金系统可以合理地提高矿场利润。
 
-Built-in algorithm engines can update popular currencies without heating.
-Perfect control logic, even if the service charge is turned on, the mine pool end will not show that the equipment is offline.
+内置算法引擎可以更新流行货币而不会产生热量。
 
-Based on the development of Rust, efficient language brings unparalleled performance.
-High-performance, next-generation operation and maintenance experience, which is a professional farm operation and maintenance system-RustMinerSystem brought by the top R&D team and RUST experts in Silicon Valley
+仪表盘完美兼容各种设备，PC、MOBILE、PAD一目了然。
 
-(Partial Preview)
+完美的控制逻辑，即使开启了服务费，矿池端也不会显示设备离线。
+
+基于Rust的开发，高效的语言带来无与伦比的性能。
+
+高性能，下一代运维体验，是由硅谷顶尖的研发团队和RUST专家带来的专业矿场运维系统-RustMinerSystem
+
+（部分预览）
 
 <img src="/image/1.png" alt="Logo" width="670">
 
 </div>
 
-# Join the discussion group
+# 加入聊天组
 
 Telegram：<a href="https://t.me/+Zrz9d5gUR7YzOTVl">https://t.me/+Zrz9d5gUR7YzOTVl</a>
 
 <!-- Discord：<a href="sadfasfdasfsa">sadfasfdasfsa</a> -->
 
-# Special thanks
+# 特别感谢
 
 <img src="/image/icon-logo-blue.png" alt="Logo" width="100">
 
 <img src="/image/poolin.svg" alt="Logo" width="100">
 
-<p>Thanks for the technical support provided by the mine pool😊</p>
+<p>感谢以上矿池在一定范围内提供了技术支持😊</p>
 
-# Supported algorithms
+# 支持的算法
 
-For the supported algorithm, the corresponding currency will be updated without heat at any time, and the client 0 will bear the burden
+对于支持的算法，相应的货币将随时热更新，客户端0将承担负担
 
 
 | arithmetic      | Support     | Relevant currency |
@@ -65,37 +69,37 @@ For the supported algorithm, the corresponding currency will be updated without 
 | KHEAVYHASH      | ✅          | KASPA...
 
 
-# Service Agreement
+# 服务协议
 
-RustMinerSystem is subject to the supervision of Hong Kong laws. Please note that the legal requirements of various countries/regions may restrict such products and services. Therefore, this product and service as well as some functions may not be available or may be restricted in some jurisdictions or regions or some users. You should understand and comply with the local laws and regulations. If you use this product, the default representative accepts the above license. If the legal problems caused by this product are irrelevant to this product.
+RustMinerSystem受香港法律监管。请注意，不同国家/地区的法律要求可能会限制此类产品和服务。因此，该产品和服务以及某些功能可能不可用，或者在某些司法管辖区或地区或某些用户中可能受到限制。您应该理解并遵守当地的法律法规。如果您使用此产品，默认代表将接受上述许可证。如果本产品引起的法律问题与本产品无关。
 
 
 
 
 [rustminersystem.io]: https://github.com/EvilGenius-dot/RustMinerSystem
-[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v0.0.1-green?logo=rust
+[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v0.9.9-green?logo=rust
 [downloads-badge]: https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&logoColor=white&style=flat-square
 [releases]: https://github.com/EvilGenius-dot/RustMinerSystem/releases
 [stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
 [stars-shield]: https://img.shields.io/github/stars/EvilGenius-dot/RustMinerSystem.svg?style=flat
 [stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
 
-# Installation 
+# 安装 
 
 1. **Install**
 
-   Select your applicable operating system
+   选择适合您的操作系统
 
    <details open>
    <summary>Linux</summary>
 
-   > Run the following shell instructions to run the toolkit
+   > 运行以下shell指令以运行工具包
    >
    > ```sh
    >  bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/install.sh)
    > ```
    >
-   > After running successfully, you will see the following menu.
+   > 成功运行后，您将看到以下菜单。
    >
 
    </details>
@@ -103,7 +107,7 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
    <details open>
    <summary>Windows</summary>
 
-   > Please download the specified version directly from the Windows directory of this project:
+   > 请直接从此项目的Windows目录下载指定的版本：
    >
    > ```sh
    > https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/windows
@@ -113,26 +117,34 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
    </details>
 
 
-# Version Log
+# 更新日志
 ```
+0.9.9
+优化了很多细节
+
+优化的亚米设备
+
+进一步降低无效的概率（尽管已经很低）
+
+优化的内存和CPU使用率
+
 0.1.4
-Optimize e9 and e9pro
+优化e9以及e9pro
 
 0.1.3
-Optimizing Antminer s17
+优化了蚂蚁s17
 
 0.1.2
-Fixed a serious issue of task chaos for multiple devices under Rust
+修复了Rust下多台设备任务混乱的严重问题
 
-Fixed issue where kas was unable to receive tasks
+修正了kas无法接收任务的问题
 
 0.1.0
-Release of internal test version
+内部测试版本
 ```
 
 # Other issues
 
-This is a free software, which does not charge any fees. It only takes 0.4% of the computing power of the terminal equipment from the technical point of view as a technical return. Billing capacity may fluctuate up and down due to the logic of the mining pool in different currencies. Generally, the floating range will not exceed+-% 0.3
-
+这是一个免费软件，不收取任何费用。从技术角度来看，它只需要终端设备计算能力的0.4%作为技术回报。由于不同货币的矿池逻辑，计费能力可能会上下波动。一般情况下，浮动范围不会超过+-%0.3
 
 
