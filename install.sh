@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="0.9.91"
+VERSION="0.9.92"
 DOWNLOAD_HOST="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/linux"
 ORIGIN_EXEC="rustminersystem-${VERSION}"
 
@@ -328,6 +328,7 @@ ISSUE() {
     echo "0.1.2"
     echo "0.9.9"
     echo "0.9.91"
+    echo "0.9.92"
 }
 
 filterResult() {
