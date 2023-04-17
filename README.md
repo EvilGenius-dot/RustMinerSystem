@@ -12,7 +12,7 @@
 [![Downloads][downloads-badge]][releases]
 [![Stargazers][stars-shield]][stars-url]
 
-<a href="https://github.com/EvilGenius-dot/RustMinerSystem/blob/main/README.md">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem/blob/main/i18n/zh_cn.md">简体中文</a>
+<a href="https://github.com/EvilGenius-dot/RustMinerSystem/blob/main/README.md">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n">简体中文</a>
 
 The powerful and experienced monitoring and recording system can solve the abnormal situation of the farm immediately.
 
@@ -77,7 +77,7 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 
 [rustminersystem.io]: https://github.com/EvilGenius-dot/RustMinerSystem
-[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v0.0.9-green?logo=rust
+[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v0.0.91-green?logo=rust
 [downloads-badge]: https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&logoColor=white&style=flat-square
 [releases]: https://github.com/EvilGenius-dot/RustMinerSystem/releases
 [stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
@@ -119,6 +119,11 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+0.0.91
+Fixed a bug where the hot update wallet caused the program to crash
+
+Fixed kas not working properly due to changes in the previous version
+
 0.9.9
 Optimized a lot of details
 
