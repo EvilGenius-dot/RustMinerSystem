@@ -119,6 +119,9 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+0.0.93
+fix...
+
 0.0.92
 Fixed a bug where the hot update wallet would cause the application to crash. Fixed some kernel kas connection issues 
  
