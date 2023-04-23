@@ -119,6 +119,9 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+0.0.94
+fix...
+
 0.0.93
 fix...
 
