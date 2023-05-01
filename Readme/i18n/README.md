@@ -44,7 +44,7 @@
 
 # 加入聊天组
 
-Telegram：<a href="https://t.me/+Zrz9d5gUR7YzOTVl">https://t.me/rustkt</a>
+Telegram：<a href="https://t.me/rustkt">https://t.me/rustkt</a>
 
 Telegram：<a href="https://t.me/+Zrz9d5gUR7YzOTVl">https://t.me/+Zrz9d5gUR7YzOTVl</a>
 
