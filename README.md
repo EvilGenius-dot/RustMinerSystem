@@ -121,27 +121,30 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
-0.0.97
+0.9.98
+Optimize the bottom layer and reduce losses
+
+0.9.97
 Fixed a serious bug in program pseudo death
 
-0.0.96
+0.9.96
 The perfect BTC@KAS
 
-0.0.95
+0.9.95
 fix...
 
-0.0.94
+0.9.94
 fix...
 
-0.0.93
+0.9.93
 fix...
 
-0.0.92
+0.9.92
 Fixed a bug where the hot update wallet would cause the application to crash. Fixed some kernel kas connection issues 
  
 Fixed ltc small power display bug
 
-0.0.91
+0.9.91
 Fixed a bug where the hot update wallet caused the program to crash
 
 Fixed kas not working properly due to changes in the previous version
