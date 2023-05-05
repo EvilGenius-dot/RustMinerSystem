@@ -121,6 +121,11 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+0.9.99
+Optimize BTC, LTC
+
+Optimized mean delay display is not accurate
+
 0.9.98
 Optimize the bottom layer and reduce losses
 
