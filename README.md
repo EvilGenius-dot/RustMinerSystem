@@ -121,6 +121,11 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+0.9.999
+A serious security breach was fixed
+
+Optimized commission logic for all currencies
+
 0.9.99
 Optimize BTC, LTC
 
