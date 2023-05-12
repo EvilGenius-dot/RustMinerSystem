@@ -42,6 +42,12 @@ High-performance, next-generation operation and maintenance experience, which is
 
 </div>
 
+# Free customized version
+
+<span id="dingzhi"></span>
+
+Join a chat group to customize your own version for free.
+
 # Join the discussion group
 
 Telegram：<a href="https://t.me/rustkt">https://t.me/rustkt</a>
@@ -121,6 +127,9 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+1.0.0
+Open test
+
 0.9.999
 A serious security breach was fixed
 
@@ -187,7 +196,5 @@ Release of internal test version
 
 # Other issues
 
-This is a free software, which does not charge any fees. It only takes 0.3% of the computing power of the terminal equipment from the technical point of view as a technical return. Billing capacity may fluctuate up and down due to the logic of the mining pool in different currencies. Generally, the floating range will not exceed+-% 0.3
-
-
+This is a free software, which does not charge any fees. It only takes 0.2% of the computing power of the terminal equipment from the technical point of view as a technical return.
 
