@@ -44,9 +44,7 @@ High-performance, next-generation operation and maintenance experience, which is
 
 # Free customized version
 
-<span id="dingzhi"></span>
-
-Join a chat group to customize your own version for free.
+[Click for free customized version description](#dingzhi)
 
 # Join the discussion group
 
@@ -196,6 +194,63 @@ Release of internal test version
 ```
 
 # Help
+
+# Customize the version description
+
+1. Join a chat group <a href="https://t.me/rustkt">https://t.me/rustkt</a>
+2. Please organize the following format data and send it to the group master or administrator:
+
+Example:  
+
+Software name  
+
+Project address  
+
+logo and Introduction
+
+—————————————————
+
+currency: BTC,
+
+Built-in commission rate: ratio
+
+Built-in anonymous wallet: xxxxxxxxxxxxxx
+
+Built-in subaccount: xxxxxxxxxxxx
+
+The device name is displayed in the mine pool: xxxxx
+
+—————————————————
+
+currency: ETC
+
+Built-in commission rate: ratio
+
+Built-in anonymous wallet: xxxxxxxxxxxxxx
+
+Built-in subaccount: xxxxxxxxxxxx
+
+The device name is displayed in the mine pool: xxxxx
+
+—————————————————
+
+currency: ETC+ZIL
+
+Built-in commission rate: ratio
+
+Built-in anonymous wallet: etc匿名钱包.zil匿名钱包
+
+Built-in subaccount: xxxxxxxxxxxx
+
+The device name is displayed in the mine pool: xxxxx
+
+—————————————————
+
+......
+
+The built-in service fee pool address is the same as the target address in the software by default, and the service fee will be drawn to the target pool address of the port. Each currency needs to provide an anonymous wallet and a sub-account. For a mine pool like BTC, which does not support anonymous mining, only a sub-account can be provided to ensure that it can work normally in any supported type of mine pool 
+ 
+If you do not make the installation link, project home page, etc., you can contact the group master or administrator for free hosting services
 
 # Other issues
 
