@@ -195,6 +195,8 @@ Release of internal test version
 
 # Help
 
+<span id="dingzhi"></span>
+
 # Customize the version description
 
 1. Join a chat group <a href="https://t.me/rustkt">https://t.me/rustkt</a>
