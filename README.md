@@ -256,7 +256,7 @@ If you do not make the installation link, project home page, etc., you can conta
 
 <span id="e9"></span>
 
-# 针对E9pro的一些优化措施
+# Some optimization measures for E9pro
 
 1. Please turn on the e9pro optimizer on the port configuration, otherwise the computing power may be lost
 
