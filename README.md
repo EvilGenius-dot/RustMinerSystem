@@ -254,6 +254,18 @@ The built-in service fee pool address is the same as the target address in the s
  
 If you do not make the installation link, project home page, etc., you can contact the group master or administrator for free hosting services
 
+<span id="e9"></span>
+
+# 针对E9pro的一些优化措施
+
+1. Please turn on the e9pro optimizer on the port configuration, otherwise the computing power may be lost
+
+<img src="/image/e9.png" alt="e9" width="300">
+
+2. Please unify the three addresses, wallet and machine name in the background of mining machine, or keep only one address configuration information, and delete the configuration of 2 and 3, for example:
+
+<img src="/image/e99.png" alt="e9" width="300">
+
 # Other issues
 
 This is a free software, which does not charge any fees. It only takes 0.2% of the computing power of the terminal equipment from the technical point of view as a technical return.
