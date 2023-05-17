@@ -125,6 +125,13 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+1.0.2
+The underlying reconstruction optimizes the processing and statistics of multiple links 
+ 
+It is deeply optimized for e9pro 
+ 
+Open error log
+
 1.0.1
 Fixed a bug caused by links
 
