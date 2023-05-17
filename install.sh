@@ -263,6 +263,8 @@ stop() {
     echo "${m_10}"
 
     kill_process $PATH_EXEC
+
+    sleep 1
 }
 
 kill_process() {
@@ -277,6 +279,8 @@ kill_process() {
     kill -TERM "$pid"
   done
   echo "${m_13} $process_name ."
+
+  sleep 1
 }
 
 # 设置开机启动且进程守护
@@ -320,6 +324,8 @@ disable_autostart() {
     else # 系统使用的是SysVinit
         sudo sed -i '/\/root\/rustminersystem\/rustminersystem\ &/d' /etc/rc.local
     fi
+
+    sleep 1
 }
 
 
