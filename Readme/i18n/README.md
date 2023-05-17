@@ -260,11 +260,11 @@ logo及简介
 
 1. 请将端口配置上的e9pro优化打开，否则可能会导致算力消失
 
-<img src="/image/e9.png" alt="e9" width="300">
+<img src="/image/e9.png" alt="e9" width="600">
 
 2. 请将矿机后台的三个地址、钱包以及机器名统一，或是只保留一条地址配置信息, 删除2和3的配置, 例如:
 
-<img src="/image/e99.png" alt="e9" width="300">
+<img src="/image/e99.png" alt="e9" width="600">
 
 # Other issues
 
