@@ -258,11 +258,14 @@ If you do not make the installation link, project home page, etc., you can conta
 
 # Some optimization measures for E9pro
 
-1. Please turn on the e9pro optimizer on the port configuration, otherwise the computing power may be lost
+- Please turn on the e9pro optimizer on the port configuration, otherwise the computing power may be lost
 
 <img src="/image/e9.png" alt="e9" width="600">
 
-2. Please unify the three addresses, wallet and machine name in the background of mining machine, or keep only one address configuration information, and delete the configuration of 2 and 3, for example:
+- In the background configuration of the same machine, please set the three addresses, wallet and machine name of the mining machine background to the same configuration
+- Or keep only one address configuration information and delete the configurations of 2 and 3
+- For the background configuration of the same machine, do not fill in different information for the three configuration items; otherwise, the computing power may disappear
+- Example:
 
 <img src="/image/e99.png" alt="e9" width="600">
 
