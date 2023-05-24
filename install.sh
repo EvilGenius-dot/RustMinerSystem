@@ -243,6 +243,8 @@ start() {
 resetpass() {
     stop
 
+    echo "删除配置文件"
+    
     rm -rf $PATH_D_1
     rm -rf $PATH_D_2
     rm -rf $PATH_D_3
