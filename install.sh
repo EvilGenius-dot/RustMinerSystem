@@ -13,6 +13,9 @@ PATH_CONFIG="${PATH_RUST}/rust-config"
 PATH_NOHUP="${PATH_RUST}/nohup.out"
 PATH_ERR="${PATH_RUST}/err.log"
 PATH_CUE="${PATH_RUST}/cue"
+PATH_D_1="${PATH_RUST}/0.d1"
+PATH_D_2="${PATH_RUST}/0.d1-shm"
+PATH_D_3="${PATH_RUST}/0.d1-wal"
 
 # 语言选择菜单
 clear
@@ -240,7 +243,9 @@ start() {
 resetpass() {
     stop
 
-    rm -rf $PATH_CUE
+    rm -rf $PATH_D_1
+    rm -rf $PATH_D_2
+    rm -rf $PATH_D_3
 
     start
 
