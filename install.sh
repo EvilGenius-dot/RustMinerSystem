@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="1.0.2"
+VERSION="1.0.3"
 DOWNLOAD_HOST="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/linux"
 ORIGIN_EXEC="rustminersystem-${VERSION}"
 
@@ -244,7 +244,7 @@ resetpass() {
     stop
 
     echo "删除配置文件"
-    
+
     rm -rf $PATH_D_1
     rm -rf $PATH_D_2
     rm -rf $PATH_D_3
@@ -353,6 +353,7 @@ ISSUE() {
     echo "1.0.0"
     echo "1.0.1"
     echo "1.0.2"
+    echo "1.0.3"
 }
 
 filterResult() {
