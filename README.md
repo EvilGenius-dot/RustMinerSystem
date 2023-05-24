@@ -276,6 +276,12 @@ If you do not make the installation link, project home page, etc., you can conta
 
 <img src="/image/e99.png" alt="e9" width="600">
 
+# Port import and export
+
+You can import and export ports using the following three methods: Import an EXCEL file. If you need to import ports using Excel files, download and refer to the Excel template file:
+
+<a href="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/excel%E7%AB%AF%E5%8F%A3%E5%AF%BC%E5%85%A5%E6%A8%A1%E6%9D%BF.xlsx">Download Excel Templates</a>
+
 # Other issues
 
 This is a free software, which does not charge any fees. It only takes 0.2% of the computing power of the terminal equipment from the technical point of view as a technical return.
