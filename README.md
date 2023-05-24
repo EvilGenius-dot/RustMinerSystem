@@ -125,6 +125,11 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+1.0.3
+Performance optimization 
+ 
+Added configuration import and export in json, kt, and excel formats
+
 1.0.2
 The underlying reconstruction optimizes the processing and statistics of multiple links 
  
