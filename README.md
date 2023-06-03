@@ -125,6 +125,11 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+1.0.4
+Optimized the efficiency of some BTC models, optimized the rejection rate of viabtc and ant mine pool
+
+optimized a detail bug, and further reduced the inefficiency
+
 1.0.3
 Performance optimization 
  
