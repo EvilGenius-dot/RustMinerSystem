@@ -122,6 +122,44 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
    > ```
    >
 
+   To start the Windows version, double-click it. 
+ 
+   Linux After the script is run, enter 1 or 2 to select the installation menu language. The following interface is displayed
+
+   ---------- English Menu ----------
+   1. Install
+   2. Update
+   3. Start software
+   4. Stop software
+   5. Restart software
+   6. Modify startup port
+   7. Remove Linux system connection limit (requires server restart to take effect)
+   8. Set automatic startup
+   9. Disable automatic startup...
+   10. Check program running status
+   11. View error log
+   12. Clear log files
+   13. View current WEB access port
+   14. Uninstall
+   15. Reset account password
+   16. Install specified version
+   [1-16]：
+   
+   <br>
+
+   Enter 1 to install  
+   
+   The following message is displayed after the installation is complete
+
+   |----------------------------------------------------------------|<br>
+      Program started successfully, WEB access port is21441, Default account is qzpm19kkx default password is xloqslz913<br>
+      If you are using the default password and port, please change the account password and web access port in a timely manner through the web settings.<br>
+   |----------------------------------------------------------------|
+
+   <br>
+
+   If the preceding information is displayed, the installation is successful. Enter the server IP address: port number in the browser to access the background.
+
    </details>
 
 
