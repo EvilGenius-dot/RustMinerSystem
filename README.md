@@ -127,6 +127,11 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+2.0.2
+Fixed a software crash caused by concurrency  
+
+Statistical optimization of computing power
+
 2.0.0 
 Multiple client details optimization 
  
