@@ -165,6 +165,19 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+2.0.4 
+The default mode of computing power compensation is optimized to further reduce inefficiency 
+ 
+Optimized the performance of kaspa under different mining pool protocols, lolminer and gminer now work in all mining pools 
+ 
+Optimized the calculation logic of the etc related algorithm, and now the calculation and pumping are more accurate 
+ 
+The underlying optimization improves the hardware utilization 
+ 
+Optimized share display bug 
+ 
+Optimize the home active distribution list
+
 2.0.3
 Fixed a serious BUG caused by disconnection reconnection mechanism
 
