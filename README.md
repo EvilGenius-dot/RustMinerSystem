@@ -371,6 +371,12 @@ If you do not make the installation link, project home page, etc., you can conta
 
 - In the background configuration of the miner, only one address configuration information is retained, and the configurations of 2 and 3 are deleted
 
+<span id="diaoxian"></span>
+
+# Some mining pools will count the miner's offline situation, how to make the equipment in the mining pool do not appear offline records?
+
+antpool or poolin, for example, will collect data on the disconnection of each device. If you do not want to see this information in the mining pool, edit the port, find the computing power compensation, and select the second mode
+
 # Port import and export
 
 You can import and export ports using the following three methods: Import an EXCEL file. If you need to import ports using Excel files, download and refer to the Excel template file:
