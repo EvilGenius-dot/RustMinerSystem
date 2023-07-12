@@ -165,6 +165,16 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+2.0.5
+
+[Important Update] Fixed a bug where RUST was suspended in windows 
+ 
+Fixed high inefficiency of kas Glacier and other chip machines 
+ 
+Compatible with the etc gtv66 chip, improve the etc computing power calculation 
+ 
+Fixed some bugs in power statistics
+
 2.0.4 
 The default mode of computing power compensation is optimized to further reduce inefficiency 
  
