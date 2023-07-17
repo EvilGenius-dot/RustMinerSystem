@@ -165,6 +165,18 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+2.0.6
+Optimized power compensation, the power compensation option is now hidden, and power is allocated to all miners by default 
+ 
+Optimized E9pro, now all mining pools can run full E9pro, and the calculation of e9pro in rust is accurate and consistent with the mining pool 
+ 
+Added a pumping mode 
+ 
+Added a mode for connecting mine pools 
+ 
+Optimized mining machine with high computing power
+
+
 2.0.5
 
 [Important Update] Fixed a bug where RUST was suspended in windows 
