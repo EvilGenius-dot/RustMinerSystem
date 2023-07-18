@@ -165,6 +165,11 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+2.0.7 
+Fixed an issue with version 6 suspended animation 
+ 
+The problem of insufficient computing power in equilibrium mode is optimized
+
 2.0.6
 Optimized power compensation, the power compensation option is now hidden, and power is allocated to all miners by default 
  
