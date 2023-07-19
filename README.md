@@ -165,6 +165,11 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+2.0.8
+Two pumping algorithms are combined  
+
+Fix suspended animation again
+
 2.0.7 
 Fixed an issue with version 6 suspended animation 
  
