@@ -165,6 +165,9 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+2.1.0
+Completely solve the jam
+
 2.0.9
 Solve the stuck problem  
 
