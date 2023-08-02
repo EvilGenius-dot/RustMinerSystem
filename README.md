@@ -165,6 +165,21 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+3.0.0
+Reconfigured the pumping algorithm, and now all currencies can pump accurately to the thousandth digit 
+ 
+In loss-prone mining pools and machines, it is now possible to ensure that the end customer does not reduce computing power more than the set percentage 
+ 
+The e9pro is perfectly optimized 
+ 
+Refactored the interface, added wallet list, device list filtering criteria and so on 
+ 
+Added the setting of single miner pumping 
+ 
+Optimized the power statistics, now the power statistics are no longer messy 
+ 
+Optimized invalid
+
 2.1.0
 Completely solve the jam
 
