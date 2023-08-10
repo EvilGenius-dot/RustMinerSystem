@@ -165,6 +165,23 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+3.2.0
+Added support for k1 mining pools 
+ 
+The connection count of ant mining pool is optimized 
+ 
+Added ports for kas series models 
+ 
+Complete lifting of cross-pond pumping restrictions 
+ 
+The configuration of the RMS service is enabled 
+ 
+The accuracy of pumping has been optimized, and now the machine with large computational power fluctuations can also pump a more accurate proportion 
+ 
+Added the option to remove pumping from separate miners 
+ 
+Continuously optimize computing power statistics
+
 3.1.0
 Tuning the performance of new algorithms under ETC algorithm
 
