@@ -165,6 +165,9 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+3.2.3
+Completely solved kas memory burst problem
+
 3.2.2
 Fixed kas slow burst memory bug
 
