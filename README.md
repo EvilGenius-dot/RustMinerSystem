@@ -165,6 +165,9 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+3.2.4
+Significantly improve the accuracy of power statistics and pumping for all currently supported currencies
+
 3.2.3
 Completely solved kas memory burst problem
 
