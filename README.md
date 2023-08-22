@@ -166,9 +166,15 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 # Version Log
 ```
 3.3.0
+RMS client release
+
 Fixed a bug where configuration could not be imported
 
 Added program update log
+
+Fixed a bug where hot update ratio would not take effect
+
+Fixed a bug where setting the mining machine pumping alone would not take effect
 
 Improved the classification display of the port list and added the display of all ports
 
