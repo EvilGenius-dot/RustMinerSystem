@@ -70,9 +70,10 @@ Telegram：<a href="https://t.me/+Zrz9d5gUR7YzOTVl">https://t.me/+Zrz9d5gUR7YzOT
 | arithmetic      | Support     | Relevant currency |
 | --------------- | ------------| ------------------|
 | SHA256          | ✅          | BTC、BCH...        
-| ETHASH          | ✅          | ETC、ETHW、ETHF、ETC+ZIL、ETHW+ZIL、ETHF+ZIL
+| ETHASH          | ✅          | ETC、ETHW、ETHF、OCTA、 ETC+ZIL、ETHW+ZIL、ETHF+ZIL
 | SCRYPT          | ✅          | LTC...
 | KHEAVYHASH      | ✅          | KASPA...
+| BLAKE2S         | ✅          | KDA...
 | BLAKE2B         | ✅          | SC...
 | OCTOPUS         | ✅          | CFX...
 
@@ -164,6 +165,23 @@ RustMinerSystem受香港法律监管。请注意，不同国家/地区的法律�
 
 # 更新日志
 ```
+3.4.0
+重构了算力统计, 现在rust内算力统计精度大幅提升
+
+得益于重构的算力统计, 现在btc的抽水更准确了
+
+增加了替换钱包功能
+
+优化了KA0 1 2 3 3l在鱼池内抽水的表现, 现在鱼池也可以抽到较为大量的算力了
+
+增加了OCTA的支持
+
+增加了KDA的支持
+
+装配了cfx的算力计算单位
+
+octa、etc等ethash算法币种, 不同协议的矿机币种在同一个端口工作，也可正常统计不同协议的算力了
+
 3.3.0
 RMS客户端发布
 
