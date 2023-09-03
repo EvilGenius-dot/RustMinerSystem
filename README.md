@@ -166,6 +166,9 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+3.4.1
+[Important Update] Fixed a critical BUG where BTC was not pumping enough water
+
 3.4.0
 Rebuilt the computing power statistics, and now the statistical accuracy of computing power in rust has been greatly improved 
  
