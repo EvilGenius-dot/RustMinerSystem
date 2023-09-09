@@ -166,6 +166,31 @@ RustMinerSystem is subject to the supervision of Hong Kong laws. Please note tha
 
 # Version Log
 ```
+3.5.0
+Re-reconstruct the pumping algorithm and the logic of the computing power statistics chart, and now you can draw accurate computing power regardless of any proportion, no longer because the larger the proportion is set, the more the less is pumped 
+ 
+Optimized the ks3 machine produced by ants 
+ 
+Added the kenc protocol as well as the socks5(next version open socks5) protocol, which can now be opened directly within rust 
+ 
+Increased CKB 
+ 
+Added ZEN 
+ 
+Added HNS 
+ 
+Added LBC 
+ 
+Fixed some bugs where the power statistics were not cleaned up due to upstream issues 
+ 
+Fixed a bug where port exceptions were not cleaned up after port conflicts 
+ 
+Turn off animation effects for smoother pages 
+ 
+Added a disconnected reconnection mechanism, and now frequently disconnected machines can also draw relevant computing power 
+ 
+The only inefficiencies are optimized
+
 3.4.1
 [Important Update] Fixed a critical BUG where BTC was not pumping enough water
 
