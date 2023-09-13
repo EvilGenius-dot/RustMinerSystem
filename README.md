@@ -69,14 +69,17 @@ For the supported algorithm, the corresponding currency will be updated without 
 
 | arithmetic      | Support     | Relevant currency |
 | --------------- | ------------| ------------------|
-| SHA256          | ✅          | BTC、BCH...        
+| SHA256          | ✅          | BTC、BCH        
 | ETHASH          | ✅          | ETC、ETHW、ETHF、OCTA、 ETC+ZIL、ETHW+ZIL、ETHF+ZIL
-| SCRYPT          | ✅          | LTC...
-| KHEAVYHASH      | ✅          | KASPA...
-| BLAKE2S         | ✅          | KDA...
-| BLAKE2B         | ✅          | SC...
-| OCTOPUS         | ✅          | CFX...
-
+| SCRYPT          | ✅          | LTC
+| KHEAVYHASH      | ✅          | KASPA
+| BLAKE2S         | ✅          | KDA
+| BLAKE2B         | ✅          | SC、HNS
+| OCTOPUS         | ✅          | CFX
+| DYNEXSOLVE      | ✅          | DNX
+| EAGLESONG       | ✅          | CKB
+| EQUIHASH        | ✅          | ZEN、ZEC
+| LBRY            | ✅          | LBC
 
 # Service Agreement
 

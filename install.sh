@@ -337,24 +337,7 @@ disable_autostart() {
 
 
 ISSUE() {
-    echo "0.1.0"
-    echo "0.1.2"
-    echo "0.9.9"
-    echo "0.9.91"
-    echo "0.9.92"
-    echo "0.9.93"
-    echo "0.9.94"
-    echo "0.9.95"
-    echo "0.9.96"
-    echo "0.9.97"
-    echo "0.9.98"
-    echo "0.9.99"
-    echo "0.9.999"
-    echo "1.0.0"
-    echo "1.0.1"
-    echo "1.0.2"
-    echo "1.0.3"
-    echo "2.0.0"
+    echo "请输入指定的版本号, 例如 3.5.0"
 }
 
 filterResult() {
