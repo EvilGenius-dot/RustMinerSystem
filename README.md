@@ -80,6 +80,7 @@ For the supported algorithm, the corresponding currency will be updated without 
 | EAGLESONG       | ✅          | CKB
 | EQUIHASH        | ✅          | ZEN、ZEC
 | LBRY            | ✅          | LBC
+| X11             | ✅          | DASH
 
 # Service Agreement
 

@@ -173,6 +173,7 @@ echo "$prompt_web_port"
 echo "$prompt_uninstall"
 echo "$prompt_reset_pwd"
 echo "$prompt_target_version"
+echo "17. 设置后台https访问"
 
 update() {
     stop
@@ -209,7 +210,45 @@ set_port() {
     start
 }
 
+set_https_admin() {
+    stop
+
+    start
+}
+
+set_https() {
+    echo "是否开启https后台访问? 请注意,开启后后台地址必须使用https://访问, 关闭后必须使用http://访问。"
+    echo "1. 不开启"
+    echo "2. 开启"
+
+    read -p "$(echo -e "请选择[1-2]?：")" choose
+
+    case $choose in
+    1)
+        setConfig ENABLE_WEB_TLS 0
+        ;;
+    2)
+        setConfig ENABLE_WEB_TLS 1
+        return
+        ;;
+    *)
+        setConfig ENABLE_WEB_TLS 1
+        echo "输入错误, 默认不开启。"
+        return
+        ;;
+    esac
+}
+
+get_ip(){
+    local IP=$( ip addr | egrep -o '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | egrep -v "^192\.168|^172\.1[6-9]\.|^172\.2[0-9]\.|^172\.3[0-2]\.|^10\.|^127\.|^255\.|^0\." | head -n 1 )
+    [ -z ${IP} ] && IP=$( wget -qO- -t1 -T2 ipv4.icanhazip.com )
+    [ -z ${IP} ] && IP=$( wget -qO- -t1 -T2 ipinfo.io/ip )
+    [ ! -z ${IP} ] && echo ${IP} || echo
+}
+
 start() {
+    set_https
+
     echo $BLUE "${m_4}..."
     check_process $PATH_EXEC
 
@@ -217,10 +256,6 @@ start() {
         echo "${m_5}"
         return
     else
-        # cd $PATH_RUST
-
-        # nohup "${PATH_RUST}/${PATH_EXEC}" 2>$PATH_ERR &
-
         enable_autostart
 
         sleep 1
@@ -228,11 +263,29 @@ start() {
         check_process $PATH_EXEC
 
         if [ $? -eq 0 ]; then
+            clear   
             port=$(getConfig "START_PORT")
+            https=$(getConfig "ENABLE_WEB_TLS")
+            http_h="http://"
+            http_t="未开启"
+            
+            if [ $https = 0 ];then
+                http_t="当前后台为http协议访问, 请不要使用https访问。"
+                http_h="http://"
+            else
+                http_t="当前后台为https协议访问, 请不要使用http访问。"
+                http_h="https://"
+            fi
 
+            echo ""
+            echo ""
             echo "|----------------------------------------------------------------|"
-            echo "${m_6}${port}, ${m_7}"
-            echo "${m_8}"
+            echo "程序启动成功, 版本号: ${VERSION}"
+            echo $http_t
+            echo "后台访问地址:     ${http_h}$(get_ip):${port}"
+            echo "默认用户名为      qzpm19kkx"
+            echo "默认密码为        xloqslz913"
+            echo "如果您是默认密码及默认端口, 请及时在网页设置中修改账号密码及web访问端口。"
             echo "|----------------------------------------------------------------|"
         else
             echo "${m_40}"
@@ -369,15 +422,18 @@ setConfig() {
         chmod -R 777 $PATH_CONFIG
 
         echo "START_PORT=63521" >> $PATH_CONFIG
+        echo "ENABLE_WEB_TLS=0" >> $PATH_CONFIG
     fi
 
-    TARGET_VALUE="$1=$2"
-
-    line=$(sed -n '/'$1'/=' ${PATH_CONFIG})
-
-    sed -i "${line} a $TARGET_VALUE" $PATH_CONFIG
-
-    sed  -i  "$line d" $PATH_CONFIG
+    if grep -q "^$1=" "$PATH_CONFIG"; then
+        # 如果key已经存在，则修改它的值
+        sed -i "s/^$1=.*/$1=$2/" "$PATH_CONFIG"
+        echo "已更新配置文件: $PATH_CONFIG"
+    else
+        # 如果key不存在，则添加新的key=value行
+        echo "$1=$2" >> "$PATH_CONFIG"
+        echo "已添加配置到文件: $PATH_CONFIG"
+    fi
 
     echo "$1已修改为$2"
 }
@@ -581,7 +637,7 @@ install_target() {
 }
 
 
-read -p "$(echo -e "[1-16]：")" choose
+read -p "$(echo -e "[1-17]：")" choose
 
 case $choose in
 1)
@@ -631,6 +687,9 @@ case $choose in
     ;;
 16)
     install_target
+    ;;
+17)
+    set_https_admin
     ;;
 *)
     echo $prompt_error_command

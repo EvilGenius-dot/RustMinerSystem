@@ -80,6 +80,7 @@ Telegram：<a href="https://t.me/+Zrz9d5gUR7YzOTVl">https://t.me/+Zrz9d5gUR7YzOT
 | EAGLESONG       | ✅          | CKB
 | EQUIHASH        | ✅          | ZEN、ZEC
 | LBRY            | ✅          | LBC
+| X11             | ✅          | DASH
 
 
 # 服务协议
