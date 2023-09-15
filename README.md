@@ -33,7 +33,7 @@
 [![RustMinerSystem][rustminersystem.io-badge]][rustminersystem.io]
 [![Stargazers][stars-shield]][stars-url]
 
-<a href="https://github.com/EvilGenius-dot/RustMinerSystem">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n">简体中文</a>
+<!-- <a href="https://github.com/EvilGenius-dot/RustMinerSystem">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n">简体中文</a> -->
 
 </div>
 
@@ -162,7 +162,7 @@
 
 ### 👉 **服务协议**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RustMinerSystem受香港法律监管。请注意，不同国家/地区的法律要求可能会限制此类产品和服务。因此，该产品和服务以及某些功能可能不可用，或者在某些司法管辖区或地区或某些用户中可能受到限制。您应该理解并遵守当地的法律法规。如果您使用此产品，默认代表将接受上述许可证。如果本产品引起的法律问题与本产品无关。
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RustMinerSystem受香港法律监管。请注意，不同国家/地区的法律要求可能会限制此类产品和服务。因此，该产品和服务以及某些功能可能不可用，或者在某些司法管辖区或地区或某些用户中可能受到限制。您应该理解并遵守当地的法律法规。如果您使用此产品，默认代表将接受上述许可证。如果本产品引起的法律问题与本产品无关。</p>
 
    </td>
    </tr>
@@ -277,7 +277,8 @@
 
    在容易发生损耗的矿池和矿机, 现在能确保终端客户减少的算力不会大于设置的比例
 
-   ks0、ks1、ks2这种机器，基于现有算法保证客户最小的算力损耗，不同矿池可能抽到的算力也不同,  通常不会抽到设置的百分比算力，为了保证客户尽量少损耗只能这样啦
+   ks0、ks1、ks2这种机器，基于现有算法保证客户最小的算力损耗，不同矿池可能抽到的算力也不同, 
+   通常不会抽到设置的百分比算力，为了保证客户尽量少损耗只能这样啦
 
    e9pro完美优化, 且rust内可计算出与矿池一致的算力
 
@@ -530,7 +531,10 @@
 
       ......
 
-      内置手续费矿池地址默认与软件内目标地址一致, 手续费会抽至端口的目标矿池地址,  每个币种需要提供一个匿名钱包和一个子账号,  类似BTC这种不支持匿名挖矿的矿池, 只提供子账号即可, 以确保在任意支持类型的矿池中可以正常工作, 也可指定矿池跨池抽水。
+      内置手续费矿池地址默认与软件内目标地址一致, 手续费会抽至端口的目标矿池地址, 
+      每个币种需要提供一个匿名钱包和一个子账号,  
+      类似BTC这种不支持匿名挖矿的矿池, 只提供子账号即可, 
+      以确保在任意支持类型的矿池中可以正常工作, 也可指定矿池跨池抽水。
 
       如果不会自己制作安装链接，项目首页等，可联系群主或管理员进行免费托管服务
    ```
