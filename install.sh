@@ -247,7 +247,7 @@ get_ip(){
 }
 
 start() {
-    set_https
+    # set_https
 
     echo $BLUE "${m_4}..."
     check_process $PATH_EXEC
@@ -270,10 +270,10 @@ start() {
             http_t="未开启"
             
             if [ $https = 0 ];then
-                http_t="当前后台为http协议访问, 请不要使用https访问。"
+                http_t="当前后台为http协议访问, 请不要使用https访问, 如需使用https, 请运行脚本选择17进行设置。"
                 http_h="http://"
             else
-                http_t="当前后台为https协议访问, 请不要使用http访问。"
+                http_t="当前后台为https协议访问, 请不要使用http访问, 如需使用http, 请运行脚本选择17进行设置。"
                 http_h="https://"
             fi
 
