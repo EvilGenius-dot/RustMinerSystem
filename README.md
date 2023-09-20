@@ -108,6 +108,13 @@
 <img src="./image/icon-zec.png" alt="Logo" width="25">
 <img src="./image/icon-lbc.png" alt="Logo" width="25">
 <img src="./image/icon-dash.png" alt="Logo" width="25">
+<img src="./image/icon-sero.png" alt="Logo" width="25">
+<img src="./image/icon-alph.png" alt="Logo" width="25">
+<img src="./image/icon-xmr.png" alt="Logo" width="25">
+<img src="./image/icon-zeph.png" alt="Logo" width="25">
+<img src="./image/icon-rvn.png" alt="Logo" height="25">
+<img src="./image/icon-rxd.png" alt="Logo" width="25">
+<img src="./image/icon-erg.png" alt="Logo" width="25">
 </div>
 
 ```text
@@ -124,6 +131,12 @@
   EQUIHASH            ZEN、ZEC
   LBRY                LBC
   X11                 DASH
+  PROGPOW             SERO
+  BLAKE3              ALPH
+  RANDOMX             XMR、ZEPH
+  KAWPOW              RVN
+  SHA512256D          RXD
+  AUTOYKOS2           ERG                
 ```
 
 
@@ -176,6 +189,66 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.6.0
+   增加了后台https访问, 可在设置 -> https后台访问中设置, 
+   或着从安装脚本中进行设置, 设置完后需要重启软件, 重启后需要使用指定协议(http或https访问)
+
+   增加掉线提醒
+
+   增加ip黑名单功能
+
+   修复钱包替换功能无法清空的bug
+
+   对已替换的钱包，在设备列表里给出钱包重定向的提示
+
+   设备列表页的时间算力统计，现在可根据自己的选择统计任意时间段的算力数据
+
+   增加了kas、eth的算力保护开关, 可自行斟酌在编辑端口中进行开启或关闭
+   关闭算力保护后, 可抽到精准算力, 但是不对客户算力进行保护
+
+   增加了eth并发优化的开关, gtv66机型需要关闭此开关, 默认开启
+
+   稳定性提升 优化了极小概率矿池和矿机同时发生不稳定的情况下，导致连接数爆炸的问题
+
+   修复了一个关联rms的小bug，修复编辑rust端口的时候导致rms矿机半天进不来的问题
+
+   增加了所有ip访问的日志
+
+   端口日志以及设备日志里的ip现在可以点击进行相关操作
+
+   增加了更多的提示
+
+   大幅优化页面流畅度
+
+   页面细节优化
+
+   [rms更新]
+   更新了rms的安装脚本，更广泛的兼容各种盒子
+
+   rms更新，修复推送地址前如果有代理，如果rust关闭但是请求没有响应时启动不起来的bug
+
+   [币种更新]
+   增加dnx以及mallob的代理转发
+
+   增加DASH
+
+   增加CKB
+
+   增加SERO
+
+   增加ALPH
+
+   增加XMR
+
+   增加ZEPH
+
+   增加RVN
+
+   增加RXD
+
+   增加ERG
+
+
    3.5.0
    再次重构抽水算法及算力统计图表逻辑, 现在不管任何比例都能抽到精准算力, 不再因为比例设置越大, 少抽的越多
 
@@ -578,7 +651,7 @@
 
 
 [rustminersystem.io]: https://github.com/EvilGenius-dot/RustMinerSystem
-[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v3.5.0-green?logo=rust
+[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v3.6.0-green?logo=rust
 [downloads-badge]: https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&logoColor=white&style=flat-square
 [releases]: https://github.com/EvilGenius-dot/RustMinerSystem/releases
 [stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
