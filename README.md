@@ -189,6 +189,9 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.6.1
+   修复了3.6.0的显示bug, 有时候设备列表内的矿机不显示（不影响正常使用）
+
    3.6.0
    增加了后台https访问, 可在设置 -> https后台访问中设置, 
    或着从安装脚本中进行设置, 设置完后需要重启软件, 重启后需要使用指定协议(http或https访问)
