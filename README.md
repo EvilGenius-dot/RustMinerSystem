@@ -189,6 +189,20 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.7.0
+   界面改版
+
+   优化了btc小算力古老固件, 不支持跨池抽水的机器如果配置了跨池地址
+   则这些机器自动同池抽水
+
+   增加自定义矿池钱包
+
+   增加预置矿池地址（可随时热更新）
+
+   增加复制端口功能
+
+   全新的硬件监控
+
    3.6.1
    修复了3.6.0的显示bug, 有时候设备列表内的矿机不显示（不影响正常使用）
 
