@@ -189,6 +189,13 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.7.1
+   性能优化, 大幅提高硬件利用率,  降低内存以及cpu的占用
+
+   大幅提升设备接入速度
+
+   优化性能监控，更准确的内存以及cpu统计
+
    3.7.0
    界面改版
 
