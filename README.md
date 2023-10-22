@@ -59,16 +59,16 @@
 
    <p>&emsp;&emsp;默认后台账号密码为 qzpm19kkx xloqslz913</p>
 
-   <p>ARM版本请使用以下命令进行安装</p>
+   <p>&emsp;&emsp;ARM版本请使用以下命令进行安装</p>
    
-   ARM:
+   &emsp;&emsp;ARM:
 
    ```sh
      bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/arm-install.sh)
    ```
 
-   ARMV7:
-   
+   &emsp;&emsp;ARMV7:
+
    ```sh
      bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/armv7-install.sh)
    ```
