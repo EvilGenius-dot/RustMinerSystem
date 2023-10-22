@@ -189,6 +189,11 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.7.2
+   优化gtv66和e9pro全批次不同固件的机型，现在这两类机型都可以跑同一个端口并且解决掉了相关的无效以及相关的所有BUG
+
+   解禁了DNX抽水限制, 但是目前不要抽水，因为官方以及矿池并未按照公布时间进行解除验证, 等后续矿池公告以后再开启抽水
+
    3.7.1
    性能优化, 大幅提高硬件利用率,  降低内存以及cpu的占用
 
