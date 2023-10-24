@@ -203,6 +203,13 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.7.3
+   增加是否强制下发成功份额开关
+
+   修复etc抽水算力显示和矿池不一致问题（纯显示问题）
+   
+   修复gtv66两个地方展示的算力是以p为单位的问题（纯显示问题）
+
    3.7.2
    优化gtv66和e9pro全批次不同固件的机型，现在这两类机型都可以跑同一个端口并且解决掉了相关的无效以及相关的所有BUG
 
