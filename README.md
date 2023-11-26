@@ -134,7 +134,7 @@
 ```text
   算法                支持的币种
   SHA256              BTC、BCH        
-  ETHASH              ETC、ETHW、ETHF、OCTA、 ETC+ZIL、ETHW+ZIL、ETHF+ZIL
+  ETHASH              ETC、ETHW、ETHF、OCTA、 ETC+ZIL、ETHW+ZIL、ETHF+ZIL、CLORE、NEURAI、NEOXA、ZIL、CLO、UBQ、EGAZ、ELH、AVS、CAU、PAC、PWR、BTN、DUBX、XPB、REDEV2、RTH
   SCRYPT              LTC
   KHEAVYHASH          KASPA
   BLAKE2S             KDA
@@ -151,6 +151,7 @@
   KAWPOW              RVN
   SHA512256D          RXD
   AUTOYKOS2           ERG                
+  NEXAPOW             NEXA
 ```
 
 
@@ -203,6 +204,50 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.8.0
+   增加了对 NEXA CLORE NEURAI NEOXA ZIL 
+   CLO UBQ EGAZ ELH AVS CAU PAC PWR 
+   BTN DUBX XPB REDEV2 RTH 
+   这些币种的支持
+
+   开放了群控功能
+
+   优化矿机显示在线时长逻辑
+
+   关闭了验证码
+
+   替okminer优化连不进来的矿机（无法连接okminer的矿机，可通过rust接入okminer）
+
+   增加钱包黑名单功能
+
+   优化了由于矿池网络波动导致算力计算偏差的bug（此前触发概率极低）
+
+   优化了RVN算法相关逻辑
+
+   [RMS 1.0.0] RMS更新
+
+   开放RMS连接池模式 
+
+   [!!!注意：连接池模式需要对应接入的rust服务端版本 >= 3.8.0]
+
+   (
+      如需使用rms公网连接数压缩功能, 请在rms客户端右上角设置里选择切换模式,
+   然后选择连接池, 设置最大连接数。 
+
+      以下为压缩率计算公式：
+   
+      压缩率 = 接入矿机数量 / 最大连接数
+
+      压缩率不要太高, 最大连接数设置的越大，硬件负载越小
+      通常3-5倍的压缩率即可, 根据rms所在设备以及服务器硬件情况自行斟酌
+
+      此处压缩的是rms至服务器中间的公网tcp数量, 并非简单的矿机合并
+   )
+
+   rms 增加密码配置, 右上角设置内可设置rms的访问账号密码
+
+   rms 增加手动模式, 可自己添加指定rms协议的服务器ip+端口
+
    3.7.3
    增加是否强制下发成功份额开关
 
