@@ -167,6 +167,7 @@
   ETHASH              ETC、ETHW、ETHF、OCTA、 ETC+ZIL、ETHW+ZIL、ETHF+ZIL、CLORE、NEURAI、NEOXA、ZIL、CLO、UBQ、EGAZ、ELH、AVS、CAU、PAC、PWR、BTN、DUBX、XPB、REDEV2、RTH
   SCRYPT              LTC
   KHEAVYHASH          KASPA
+  KARLSENHASH         KLS
   BLAKE2S             KDA
   BLAKE2B             SC、HNS
   OCTOPUS             CFX
@@ -225,6 +226,11 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.8.2
+   增加KLS
+
+   优化一处CPU及内存占用
+
    3.8.0
    增加了对 NEXA CLORE NEURAI NEOXA ZIL 
    CLO UBQ EGAZ ELH AVS CAU PAC PWR 
