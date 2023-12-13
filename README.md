@@ -175,14 +175,15 @@
   EAGLESONG           CKB
   EQUIHASH            ZEN、ZEC
   LBRY                LBC
-  X11                 DASH
+  X11                 DASH、BLOCX
   PROGPOW             SERO
   BLAKE3              ALPH
-  RANDOMX             XMR、ZEPH
-  KAWPOW              RVN
+  RANDOMX             XMR、ZEPH、NEVO
+  KAWPOW              RVN、MEWC
   SHA512256D          RXD
   AUTOYKOS2           ERG                
   NEXAPOW             NEXA
+  GHOSTRIDER          RTM、RTC、MECU、MAXE、NIKI、SUBI、NEVO
 ```
 
 
@@ -226,6 +227,28 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.9.0
+   [重要更新]
+   全币种算法整体优化, 抗波动性更强更精准
+
+   增加了BLOCX RTM RTC MECU MAXE NIKI SUBI MEWC NEVO币种
+
+   增加了tcp/tls双协议端口
+
+   修复了矿池方向是TLS并且池子网络波动的情况下, 导致CPU异常升高的问题
+
+   支持设置指定钱包下所有设备的手续费比例单独调整（设备列表页 -> 钱包列表页面进行设置）
+
+   更新了算力显示，现在目标算力显示的是完整算力而不是扣除手续费之后的算力
+
+   增加币种、端口、设备的历史延迟图表
+
+   增加了24H平均线显示
+
+   页面诸多细节调整
+
+   优化sc算力显示
+
    3.8.2
    增加KLS
 
