@@ -165,7 +165,7 @@
   算法                支持的币种
   SHA256              BTC、BCH        
   ETHASH              ETC、ETHW、ETHF、OCTA、 ETC+ZIL、ETHW+ZIL、ETHF+ZIL、CLORE、NEURAI、NEOXA、ZIL、CLO、UBQ、EGAZ、ELH、AVS、CAU、PAC、PWR、BTN、DUBX、XPB、REDEV2、RTH
-  SCRYPT              LTC
+  SCRYPT              LTC、BEL
   KHEAVYHASH          KASPA
   KARLSENHASH         KLS
   BLAKE2S             KDA
@@ -227,6 +227,17 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.9.1
+   增加BEL
+
+   修复了BLOCX无法在Mining-Dutch矿池工作的bug
+
+   创建端口时，币种选择器改为可搜索，方便使用
+
+   均线图表现在跟随小时平均组件设置显示
+
+   修复了一处接口报错
+
    3.9.0
    [重要更新]
    全币种算法整体优化, 抗波动性更强更精准
