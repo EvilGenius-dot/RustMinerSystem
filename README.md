@@ -164,7 +164,7 @@
 ```text
   算法                支持的币种
   SHA256              BTC、BCH        
-  ETHASH              ETC、ETHW、ETHF、OCTA、 ETC+ZIL、ETHW+ZIL、ETHF+ZIL、CLORE、NEURAI、NEOXA、ZIL、CLO、UBQ、EGAZ、ELH、AVS、CAU、PAC、PWR、BTN、DUBX、XPB、REDEV2、RTH
+  ETHASH              ETC、ETHW、ETHF、OCTA、 ETC+ZIL、ETHW+ZIL、ETHF+ZIL、CLORE、NEURAI、NEOXA、ZIL、CLO、UBQ、EGAZ、ELH、AVS、CAU、PAC、PWR、BTN、DUBX、XPB、REDEV2、RTH、DOGETHER
   SCRYPT              LTC、BEL
   KHEAVYHASH          KASPA、PYI
   KARLSENHASH         KLS
@@ -177,7 +177,7 @@
   LBRY                LBC
   X11                 DASH、BLOCX
   PROGPOW             SERO
-  BLAKE3              ALPH
+  BLAKE3              ALPH、IRON
   RANDOMX             XMR、ZEPH、NEVO
   KAWPOW              RVN、MEWC
   SHA512256D          RXD
@@ -227,6 +227,11 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.9.3
+   增加IRON
+
+   增加DOGETHER
+
    3.9.2
    增加pyi
 
