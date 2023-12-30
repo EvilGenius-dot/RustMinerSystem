@@ -179,7 +179,7 @@
   PROGPOW             SERO
   BLAKE3              ALPH、IRON
   RANDOMX             XMR、ZEPH、NEVO
-  KAWPOW              RVN、MEWC
+  KAWPOW              RVN、MEWC、AIPG
   SHA512256D          RXD
   AUTOYKOS2           ERG                
   NEXAPOW             NEXA
@@ -227,6 +227,15 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.9.4
+   修复TTS双协议端口监听消失的BUG
+
+   优化心跳包检测逻辑, 避免了极端情况下少量连接留存的问题, 程序更稳定
+
+   优化矿池方向高延迟以及异常情况下带来的负面影响
+
+   增加AIPG
+
    3.9.3
    增加IRON
 
