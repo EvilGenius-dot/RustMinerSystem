@@ -230,6 +230,31 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.9.6
+   增加GRIN、SPACE币种
+
+   针对BTC鱼池、蚂蚁、币印互相跨池的深度优化
+
+   修复ZEPH在部分矿池掉线的问题
+
+   修复强制下发成功份额导致的一些小币种掉线的BUG
+
+   优化所有kawpow算下的币种，在herominer的掉线情况
+
+   增加KENC自定义key配置，基于RSA128加密类型的三方客户端秘钥配置可在 设置 -> KENC自定义秘钥中进行管理
+
+   矿池波动异常优化, 矿池方向网络极端差的情况下CPU波动不再频繁
+
+   修复一些情况下编辑端口导致端口被占用的问题
+
+   修复有时候登录失败的BUG
+
+   修复部分情况下导入kas端口看不到的问题
+
+   增加端口批量操作
+
+   增加了一处cc攻击的防御措施
+   
    3.9.4
    修复TTS双协议端口监听消失的BUG
 
