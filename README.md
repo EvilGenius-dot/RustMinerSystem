@@ -231,6 +231,11 @@
 ![](https://ghproxy.com/https://raw.githubusercontent.com/Evilgenius-dot/Evilgenius-dot/output/github-contribution-grid-snake.svg)
 
 ```
+   3.9.7
+   修复ZEPH相关BUG
+   
+   增加SDR
+
    3.9.6
    增加GRIN、SPACE币种
 
