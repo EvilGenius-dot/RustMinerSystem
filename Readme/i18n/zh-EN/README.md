@@ -2,12 +2,12 @@
 
 <div align="center">
 
-<img src="./../image/ktlogo.gif" alt="Logo" width="170">
+<img src="/image/ktlogo.gif" alt="Logo" width="170">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=F76322&center=true&vCenter=true&width=435&lines=RustMinerSystem)](https://git.io/typing-svg)
 
 
-<img src="./../image/1.png" alt="Logo">
+<img src="/image/1.png" alt="Logo">
 
 <br>
 <br>
@@ -86,7 +86,7 @@
    
    <p>&emsp;&emsp;After successfully running it, you will see the following menu. Follow the prompts to install accordingly.</p>
    
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./../image/install.gif">
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/image/install.gif">
 
    <p>&emsp;&emsp;The default username and password for the backend are: qzpm19kkx xloqslz913</p>
 
@@ -132,34 +132,34 @@
 
 <div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./../image/icon-btc.png" alt="Logo" width="25">
-<img src="./../image/icon-bch.png" alt="Logo" width="25">
-<img src="./../image/icon-etc.png" alt="Logo" width="25">
-<img src="./../image/icon-ethw.png" alt="Logo" width="25">
-<img src="./../image/icon-ethf.png" alt="Logo" width="25">
-<img src="./../image/icon-octa.png" alt="Logo" width="25">
-<img src="./../image/icon-etc+zil.png" alt="Logo" height="25">
-<img src="./../image/icon-ethw+zil.png" alt="Logo" height="25">
-<img src="./../image/icon-ethf+zil.png" alt="Logo" height="25">
-<img src="./../image/icon-ltc.png" alt="Logo" width="25">
-<img src="./../image/icon-kaspa.png" alt="Logo" width="25">
-<img src="./../image/icon-kda.png" alt="Logo" width="25">
-<img src="./../image/icon-sc.png" alt="Logo" width="25">
-<img src="./../image/icon-hns.png" alt="Logo" width="25">
-<img src="./../image/icon-cfx.png" alt="Logo" width="25">
-<img src="./../image/icon-dnx.png" alt="Logo" width="25">
-<img src="./../image/icon-ckb.png" alt="Logo" width="25">
-<img src="./../image/icon-zen.png" alt="Logo" width="25">
-<img src="./../image/icon-zec.png" alt="Logo" width="25">
-<img src="./../image/icon-lbc.png" alt="Logo" width="25">
-<img src="./../image/icon-dash.png" alt="Logo" width="25">
-<img src="./../image/icon-sero.png" alt="Logo" width="25">
-<img src="./../image/icon-alph.png" alt="Logo" width="25">
-<img src="./../image/icon-xmr.png" alt="Logo" width="25">
-<img src="./../image/icon-zeph.png" alt="Logo" width="25">
-<img src="./../image/icon-rvn.png" alt="Logo" height="25">
-<img src="./../image/icon-rxd.png" alt="Logo" width="25">
-<img src="./../image/icon-erg.png" alt="Logo" width="25">
+<img src="/image/icon-btc.png" alt="Logo" width="25">
+<img src="/image/icon-bch.png" alt="Logo" width="25">
+<img src="/image/icon-etc.png" alt="Logo" width="25">
+<img src="/image/icon-ethw.png" alt="Logo" width="25">
+<img src="/image/icon-ethf.png" alt="Logo" width="25">
+<img src="/image/icon-octa.png" alt="Logo" width="25">
+<img src="/image/icon-etc+zil.png" alt="Logo" height="25">
+<img src="/image/icon-ethw+zil.png" alt="Logo" height="25">
+<img src="/image/icon-ethf+zil.png" alt="Logo" height="25">
+<img src="/image/icon-ltc.png" alt="Logo" width="25">
+<img src="/image/icon-kaspa.png" alt="Logo" width="25">
+<img src="/image/icon-kda.png" alt="Logo" width="25">
+<img src="/image/icon-sc.png" alt="Logo" width="25">
+<img src="/image/icon-hns.png" alt="Logo" width="25">
+<img src="/image/icon-cfx.png" alt="Logo" width="25">
+<img src="/image/icon-dnx.png" alt="Logo" width="25">
+<img src="/image/icon-ckb.png" alt="Logo" width="25">
+<img src="/image/icon-zen.png" alt="Logo" width="25">
+<img src="/image/icon-zec.png" alt="Logo" width="25">
+<img src="/image/icon-lbc.png" alt="Logo" width="25">
+<img src="/image/icon-dash.png" alt="Logo" width="25">
+<img src="/image/icon-sero.png" alt="Logo" width="25">
+<img src="/image/icon-alph.png" alt="Logo" width="25">
+<img src="/image/icon-xmr.png" alt="Logo" width="25">
+<img src="/image/icon-zeph.png" alt="Logo" width="25">
+<img src="/image/icon-rvn.png" alt="Logo" height="25">
+<img src="/image/icon-rxd.png" alt="Logo" width="25">
+<img src="/image/icon-erg.png" alt="Logo" width="25">
 </div>
 
 ```text
@@ -210,13 +210,13 @@
 ### 👉 **特别感谢**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./../image/icon-logo-blue.png" alt="Logo" width="100">
+<img src="/image/icon-logo-blue.png" alt="Logo" width="100">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./../image/poolin.svg" alt="Logo" width="100">
+<img src="/image/poolin.svg" alt="Logo" width="100">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./../image/hd_logo.png" alt="Logo" width="100">
+<img src="/image/hd_logo.png" alt="Logo" width="100">
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thank you for providing technical support within a certain scope for the above mining pool.😊</p>
 
