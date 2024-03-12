@@ -6,12 +6,12 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=F76322&center=true&vCenter=true&width=435&lines=RustMinerSystem)](https://git.io/typing-svg)
 
-<a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-EN">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem">简体中文</a> | <a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-RU">Русский язык</a>
-
 <img src="/image/1.png" alt="Logo">
 
 <br>
 <br>
+
+<a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-EN">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem">简体中文</a> | <a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-RU">Русский язык</a>
 
 <a href="#dingzhi">
    <img src="https://img.shields.io/badge/%E7%82%B9%E6%88%91%E5%85%8D%E8%B4%B9%E5%AE%9A%E5%88%B6-%F0%9F%94%A5-8A2BE2">

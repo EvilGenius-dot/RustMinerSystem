@@ -11,6 +11,8 @@
 <br>
 <br>
 
+<a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-EN">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem">简体中文</a> | <a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-RU">Русский язык</a>
+
 <a href="#dingzhi">
    <img src="https://img.shields.io/badge/%E7%82%B9%E6%88%91%E5%85%8D%E8%B4%B9%E5%AE%9A%E5%88%B6-%F0%9F%94%A5-8A2BE2">
 </a>
@@ -31,8 +33,6 @@
 
 [![RustMinerSystem][rustminersystem.io-badge]][rustminersystem.io]
 [![Stargazers][stars-shield]][stars-url]
-
-<a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-EN">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem">简体中文</a> | <a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-RU">Русский язык</a>
 
 </div>
 
