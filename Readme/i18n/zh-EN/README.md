@@ -6,7 +6,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=F76322&center=true&vCenter=true&width=435&lines=RustMinerSystem)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=%E5%9F%BA%E4%BA%8ERUST%E6%89%93%E9%80%A0%E5%9C%B0%E8%A1%A8%E6%9C%80%E5%BC%BA%E7%9A%84MinerProxy)](https://git.io/typing-svg)
 
 <img src="./../image/1.png" alt="Logo">
 
@@ -34,7 +33,7 @@
 [![RustMinerSystem][rustminersystem.io-badge]][rustminersystem.io]
 [![Stargazers][stars-shield]][stars-url]
 
-<!-- <a href="https://github.com/EvilGenius-dot/RustMinerSystem">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n">简体中文</a> -->
+<a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-EN">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem">简体中文</a> | <a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-RU">Русский язык</a>
 
 </div>
 
