@@ -237,8 +237,6 @@
    <tr>
    <td>
 
-### &emsp;
-
 <span id="dingzhi"></span>
 
 ### 👉 **Custom Exclusive Version Notes:**
