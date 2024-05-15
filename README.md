@@ -1,8 +1,8 @@
 <div id="top"></div>
 
-# <img src="./image/ktlogo.gif" alt="Logo" width="20">RUSTMINERSYSTEM
-
 <div align="center">
+
+# <img src="./image/ktlogo.gif" alt="Logo" width="20">RUSTMINERSYSTEM
 
 <img src="/image/1.png" alt="Logo">
 
