@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# <img src="./image/ktlogo.gif" alt="Logo" width="20">RUSTMINERSYSTEM
+# <img src="./image/ktlogo.gif" alt="Logo" width="24">RUSTMINERSYSTEM
 
 <img src="/image/1.png" alt="Logo">
 
