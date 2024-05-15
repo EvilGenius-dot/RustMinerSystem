@@ -1,10 +1,8 @@
 <div id="top"></div>
 
+# <img src="./image/ktlogo.gif" alt="Logo" width="20">RUSTMINERSYSTEM
+
 <div align="center">
-
-<img src="/image/ktlogo.gif" alt="Logo" width="170">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=F76322&center=true&vCenter=true&width=435&lines=RustMinerSystem)](https://git.io/typing-svg)
 
 <img src="/image/1.png" alt="Logo">
 
@@ -35,8 +33,6 @@
 [![Stargazers][stars-shield]][stars-url]
 
 </div>
-
-# RustMinerSystem
 
 <table>
    <tr>
@@ -275,7 +271,7 @@
 
 
 [rustminersystem.io]: https://github.com/EvilGenius-dot/RustMinerSystem
-[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v3.9.7-green?logo=rust
+[rustminersystem.io-badge]: https://img.shields.io/badge/RustMinerSystem-v3.9.94-green?logo=rust
 [downloads-badge]: https://img.shields.io/github/downloads/ajeetdsouza/zoxide/total?logo=github&logoColor=white&style=flat-square
 [releases]: https://github.com/EvilGenius-dot/RustMinerSystem/releases
 [stars-url]: https://github.com/EvilGenius-dot/RustMinerSystem/stargazers
