@@ -8,8 +8,7 @@
 
 ### <a href="https://rustminersystem.gitbook.io/rustminersystem">代理传统矿池, 或成为真正的矿池节点! 点击查看教程!</a>
 
-<br>
-<br>
+
 
 <a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-EN">English</a>｜<a href="https://github.com/EvilGenius-dot/RustMinerSystem">简体中文</a> | <a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/i18n/zh-RU">Русский язык</a>
 
