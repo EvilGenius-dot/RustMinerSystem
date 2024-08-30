@@ -4,9 +4,9 @@
 
 # <img src="./image/ktlogo.gif" alt="Logo" width="24">RUSTMINERSYSTEM
 
-### <a href="https://rustminersystem.gitbook.io/rustminersystem">代理传统矿池, 或成为真正的矿池节点! 点击查看教程!</a>
-
 <img src="/image/1.png" alt="Logo">
+
+### <a href="https://rustminersystem.gitbook.io/rustminersystem">代理传统矿池, 或成为真正的矿池节点! 点击查看教程!</a>
 
 <br>
 <br>
