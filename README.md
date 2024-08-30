@@ -26,10 +26,10 @@
    <img src="https://img.shields.io/badge/RMS%E6%9C%AC%E5%9C%B0%E5%AE%A2%E6%88%B7%E7%AB%AF-%F0%9F%91%88-00b9ff">
 </a>
 
-### <a href="https://rustminersystem.gitbook.io/rustminersystem">代理传统矿池, 或成为真正的矿池节点! 点击查看!</a>
-
 [![RustMinerSystem][rustminersystem.io-badge]][rustminersystem.io]
 [![Stargazers][stars-shield]][stars-url]
+
+### <a href="https://rustminersystem.gitbook.io/rustminersystem">代理传统矿池, 或成为真正的矿池节点! 点击查看!</a>
 
 </div>
 
