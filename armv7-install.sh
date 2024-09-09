@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="4.0.0-beta+0.1"
+VERSION="4.0.0-beta+0.2"
 DOWNLOAD_HOST="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/linux/armv7"
 ORIGIN_EXEC="rustminersystem-${VERSION}"
 
@@ -10,7 +10,7 @@ PATH_RUST="/root/rustminersystem"
 PATH_EXEC="rustminersystem"
 
 PATH_CONFIG="${PATH_RUST}/rust-config"
-PATH_NOHUP="${PATH_RUST}/nohup.out"
+PATH_NOHUP="${PATH_RUST}/nohup.out
 PATH_ERR="${PATH_RUST}/err.log"
 PATH_CUE="${PATH_RUST}/cue"
 PATH_D_1="${PATH_RUST}/0.d1"
