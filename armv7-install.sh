@@ -10,7 +10,7 @@ PATH_RUST="/root/rustminersystem"
 PATH_EXEC="rustminersystem"
 
 PATH_CONFIG="${PATH_RUST}/rust-config"
-PATH_NOHUP="${PATH_RUST}/nohup.out
+PATH_NOHUP="${PATH_RUST}/nohup.out"
 PATH_ERR="${PATH_RUST}/err.log"
 PATH_CUE="${PATH_RUST}/cue"
 PATH_D_1="${PATH_RUST}/0.d1"
