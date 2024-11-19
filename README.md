@@ -6,7 +6,7 @@
 
 ### <a href="https://rustminersystem.gitbook.io/rustminersystem">代理传统矿池, 或成为真正的矿池节点! 点击查看!</a>
 
-<img src="/image/1.png" alt="Logo">
+<img src="/image/1.jpg" alt="Logo">
 
 
 
