@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="4.1.5"
+VERSION="4.2.0"
 DOWNLOAD_HOST="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/linux"
 ORIGIN_EXEC="rustminersystem-${VERSION}"
 
