@@ -579,6 +579,8 @@ installapp() {
         setConfig START_PORT $((RANDOM%65535+1))
     fi
 
+    change_limit
+
     echo "${m_31}"
 
     wget -P $PATH_RUST "${DOWNLOAD_HOST}/${ORIGIN_EXEC}" -O "${PATH_RUST}/${PATH_EXEC}" 1>/dev/null
