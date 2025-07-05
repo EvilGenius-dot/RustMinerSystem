@@ -7,7 +7,7 @@
   </defs>
   <g>
     <title>Layer 1</title>
-    <image href="https://raw.githubusercontent.com/EvilGenius-dot/RustMinerSystem/refs/heads/main/image/ktlogo.png" id="svg_1" height="300" width="300" y="0" x="0"/>
+    <image href="./ktlogo.png" id="svg_1" height="300" width="300" y="0" x="0"/>
     <text transform="matrix(1 0 0 1 0 0)" font-style="normal" stroke-width="0" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="107" id="svg_4" y="188.46154" x="324.29882" stroke="#000" fill="url(#svg_7)">RustMinerSystem</text>
   </g>
 </svg>
