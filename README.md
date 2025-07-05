@@ -4,17 +4,22 @@
 
 <p align="center">
     <a href="https://github.com/EvilGenius-dot/RustMinerSystem/releases">
-    <img src="https://img.shields.io/github/v/tag/EvilGenius-dot/RustMinerSystem?label=version&color" alt="version">
+        <img src="https://img.shields.io/github/v/tag/EvilGenius-dot/RustMinerSystem?label=version&color" alt="version">
     </a>
+    <a href="https://t.me/rustkt" target="_blank">
+        <img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white" alt="Telegram" />
+    </a>
+    <a href="https://discord.gg/xpjRnv8wpX" target="_blank">
+        <img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Discord" />
     </a>
     <a href="https://github.com/EvilGenius-dot/RustMinerSystem">
-    <img src="https://img.shields.io/github/stars/EvilGenius-dot/RustMinerSystem.svg" alt="GitHub stars">
+        <img src="https://img.shields.io/github/stars/EvilGenius-dot/RustMinerSystem.svg" alt="GitHub stars">
     </a>
 </p>
 
 <p align="center">
   <a href="https://rustminersystem.gitbook.io/rustminersystem/chuan-tong-kuang-chi-dai-li/dai-li-chuan-tong-kuang-chi">矿池代理(抽水)</a> •
-  <a href="https://rustminersystem.gitbook.io/rustminersystem/zi-jian-kuang-chi-jie-dian/cheng-wei-kuang-chi-jie-dian">自建矿池</a> •
+  <a href="#https://rustminersystem.gitbook.io/rustminersystem/zi-jian-kuang-chi-jie-dian/cheng-wei-kuang-chi-jie-dian">自建矿池</a> •
   <a href="https://github.com/EvilGenius-dot/RMS">加密压缩</a> •
   <a href="https://rustminersystem.gitbook.io/rustminersystem">详细教程</a> •
   <a href="https://rustminersystem.gitbook.io/rustminersystem/guan-yu/lian-xi-wo-men">免费定制</a> •
@@ -26,20 +31,17 @@
 ## RustMinerSystem
 
 - RustMinerSystem既可以代理传统矿池，也可以使您的设备成为一个真正的矿池节点, 具体取决于您的需求。
-
 - 两种不同的方式都可使您的设备开始挖掘各种加密货币,  如果您是场地管理方或是节点拥有者, 还可自定义费率来提升您的盈利。
-
 - 并且RustMinerSystem还提供配套的本地安全客户端[RMS](https://github.com/EvilGenius-dot/RMS), [RMS](https://github.com/EvilGenius-dot/RMS)可加密且压缩数据体积10-20（1000% - 2000%）倍, 大幅降低带宽压力的情况下同时可避免中间人攻击, 大幅提升安全性, 哪怕您使用4g流量卡, 单张流量卡依旧可稳定带动5000台以上矿机。
-
 - 在开始使用之前，请认真阅读我们的 [服务协议](https://rustminersystem.gitbook.io/rustminersystem/guan-yu/fu-wu-xie-yi) 。
-
 - 如果您需要将设备接入至传统矿池, 请翻阅 [传统矿池代理](https://rustminersystem.gitbook.io/rustminersystem/chuan-tong-kuang-chi-dai-li/dai-li-chuan-tong-kuang-chi) 教程。
 - 如果您想要搭建自己的矿池节点,  请翻阅 [自建矿池节点](https://rustminersystem.gitbook.io/rustminersystem/zi-jian-kuang-chi-jie-dian/cheng-wei-kuang-chi-jie-dian) 教程。
 
 
 ## 安装RustMinerSystem
 
-RustMinerSystem同时提供不同平台以及架构的安装程序（二进制可执行文件）, Linux下仅需一行命令即可完成部署, WINDOWS下仅下载可执行程序. 双击打开根据提示即可工作。
+> [!IMPORTANT]
+> RustMinerSystem同时提供不同平台以及架构的安装程序（二进制可执行文件）, Linux下仅需一行命令即可完成部署, WINDOWS下仅下载可执行程序. 双击打开根据提示即可工作。
 
 ### WINDOWS
 
@@ -79,26 +81,27 @@ bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/arm
 
 ### 加入聊天组
 
-<p>&emsp;&emsp;Telegram：<a href="https://t.me/rustkt">https://t.me/rustkt</a></p>
+<a href="https://t.me/rustkt" target="_blank">
+  <img src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white" alt="Telegram" />
+</a>
 
-<p>&emsp;&emsp;Discord: <a href="https://discord.gg/xpjRnv8wpX">https://discord.gg/xpjRnv8wpX</a></p>
+<a href="https://discord.gg/xpjRnv8wpX" target="_blank">
+  <img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Discord" />
+</a>
 
-   </td>
-   </tr>
-   <tr>
-   <td>
 
 ### 特别感谢
 
-- <img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/icon-logo-blue.png" alt="Logo" width="100">
+<img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/icon-logo-blue.png" alt="Logo" width="100">
+<br>
+<img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/poolin.svg" alt="Logo" width="100">
+<br>
+<img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/hd_logo.png" alt="Logo" width="100">
+<br>
+<img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/antpool.png" alt="Logo" width="100">
 
-- <img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/poolin.svg" alt="Logo" width="100">
-
-- <img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/hd_logo.png" alt="Logo" width="100">
-
-- <img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/antpool.png" alt="Logo" width="100">
-
-- 感谢以上矿池在一定范围内提供了技术支持😊
+> [!TIP] 
+> 感谢以上矿池在一定范围内提供了技术支持😊
 
 ## 服务协议
 
