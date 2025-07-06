@@ -30,12 +30,20 @@
 
 ## RustMinerSystem
 
-- RustMinerSystem既可以代理传统矿池，也可以使您的设备成为一个真正的矿池节点, 具体取决于您的需求。
-- 两种不同的方式都可使您的设备开始挖掘各种加密货币,  如果您是场地管理方或是节点拥有者, 还可自定义费率来提升您的盈利。
-- 并且RustMinerSystem还提供配套的本地安全客户端[RMS](https://github.com/EvilGenius-dot/RMS), [RMS](https://github.com/EvilGenius-dot/RMS)可加密且压缩数据体积10-20（1000% - 2000%）倍, 大幅降低带宽压力的情况下同时可避免中间人攻击, 大幅提升安全性, 哪怕您使用4g流量卡, 单张流量卡依旧可稳定带动5000台以上矿机。
-- 在开始使用之前，请认真阅读我们的 [服务协议](https://rustminersystem.gitbook.io/rustminersystem/guan-yu/fu-wu-xie-yi) 。
-- 如果您需要将设备接入至传统矿池, 请翻阅 [传统矿池代理](https://rustminersystem.gitbook.io/rustminersystem/chuan-tong-kuang-chi-dai-li/dai-li-chuan-tong-kuang-chi) 教程。
-- 如果您想要搭建自己的矿池节点,  请翻阅 [自建矿池节点](https://rustminersystem.gitbook.io/rustminersystem/zi-jian-kuang-chi-jie-dian/cheng-wei-kuang-chi-jie-dian) 教程。
+> [!TIP]
+> RustMinerSystem既可以代理传统矿池，也可以使您的设备成为一个真正的矿池节点, 具体取决于您的需求。
+> 
+> 两种不同的方式都可使您的设备开始挖掘各种加密货币,  如果您是场地管理方或是节点拥有者, 还可自定义费率来提升您的盈利。
+> 
+> 并且RustMinerSystem还提供配套的本地安全客户端[RMS](https://github.com/EvilGenius-dot/RMS), [RMS](https://github.com/EvilGenius-dot/RMS)可加密且压缩数据体积10-20（1000% > 2000%）倍, 大幅降低带宽压力的情况下同时可避免中间人攻击, 大幅
+提升安全性, 哪怕您使用4g流量卡, 单张流量卡依旧可稳定带动5000台以上矿机。
+> 
+> 在开始使用之前，请认真阅读我们的 [服务协议](https://rustminersystem.gitbook.io/rustminersystem/guan-yu/fu-wu-xie-yi) 。
+> 
+> 如果您需要将设备接入至传统矿池, 请翻阅 [传统矿池代理](https://rustminersystem.gitbook.io/rustminersystem/chuan-tong-kuang-chi-dai-li/dai-li-chuan-tong-kuang-chi) 教程。
+> 
+> 如果您想要搭建自己的矿池节点,  请翻阅 [自建矿池节点](https://rustminersystem.gitbook.io/rustminersystem/zi-jian-kuang-chi-jie-dian/cheng-wei-kuang-chi-jie-dian) 教程。
+
 
 
 ## 安装RustMinerSystem
@@ -92,6 +100,9 @@ bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/arm
 
 ### 特别感谢
 
+> [!TIP] 
+> 感谢以下矿池在一定范围内提供了技术支持😊
+
 <table>
   <tr>
     <td align="center">
@@ -108,9 +119,6 @@ bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/arm
     </td>
   </tr>
 </table>
-
-> [!TIP] 
-> 感谢以上矿池在一定范围内提供了技术支持😊
 
 ## 服务协议
 
