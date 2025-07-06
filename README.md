@@ -70,9 +70,9 @@ bash <(curl -s -L -k https://rustminersystem.com/EvilGenius-dot/RustMinerSystem/
 ```
 # ARM
 bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/arm-install.sh)
+
 # ARMV7
 bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/armv7-install.sh)
-
 ```
 
 - 成功运行后，您将看到以下菜单, 根据提示安装即可。
