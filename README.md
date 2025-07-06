@@ -92,13 +92,22 @@ bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/arm
 
 ### 特别感谢
 
-<img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/icon-logo-blue.png" alt="Logo" width="100">
-<br>
-<img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/poolin.svg" alt="Logo" width="100">
-<br>
-<img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/hd_logo.png" alt="Logo" width="100">
-<br>
-<img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/antpool.png" alt="Logo" width="100">
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/icon-logo-blue.png" alt="Logo" width="100">
+    </td>
+    <td align="center">
+      <img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/poolin.svg" alt="Logo" width="100">
+    </td>
+    <td align="center">
+      <img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/hd_logo.png" alt="Logo" width="100">
+    </td>
+    <td align="center">
+      <img src="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/antpool.png" alt="Logo" width="100">
+    </td>
+  </tr>
+</table>
 
 > [!TIP] 
 > 感谢以上矿池在一定范围内提供了技术支持😊
