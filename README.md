@@ -48,44 +48,44 @@
 
 ## 安装RustMinerSystem
 
-> [!IMPORTANT]
 > RustMinerSystem同时提供不同平台以及架构的安装程序（二进制可执行文件）, Linux下仅需一行命令即可完成部署, WINDOWS下仅下载可执行程序. 双击打开根据提示即可工作。
 
 ### WINDOWS
 
-1. 打开以下链接：
-3. https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/windows
-4. 找到最新版的RustMinerSystem程序文件, 点击之后等页面跳转完毕找到View raw点击即可下载。
-5. 双击启动下载的程序, 根据提示浏览器访问即可进入RustMinerSystem管理后台。
-7. 默认后台账号密码为 qzpm19kkx xloqslz913
+> 1. 打开以下链接：
+> 2. https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/windows
+> 3. 找到最新版的RustMinerSystem程序文件, 点击之后等页面跳转完毕找到View raw点击即可下载。
+> 4. 双击启动下载的程序, 根据提示浏览器访问即可进入RustMinerSystem管理后台。
+>5. 默认后台账号密码为 qzpm19kkx xloqslz913
 
 ### Linux
-- 操作系统推荐使用Ubuntu
-- 复制运行以下shell指令以运行工具包
+> - 操作系统推荐使用Ubuntu
+> - 复制运行以下shell指令以运行工具包
 
 ```
 bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/install.sh)
 ```
 
-- 如果在部分地区下载过慢或是无法访问, 您可尝试备用安装地址
+> - 如果在部分地区下载过慢或是无法访问, 您可尝试备用安装地址
 
 ```
 bash <(curl -s -L -k https://rustminersystem.com/EvilGenius-dot/RustMinerSystem/raw/main/install.sh)
 ```
 
-- 如果您是ARM架构处理器, 请使用以下命令安装
+> - 如果您是ARM架构处理器, 请使用以下命令安装
 
 ```
 # ARM
 bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/arm-install.sh)
-
+```
+```
 # ARMV7
 bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/armv7-install.sh)
 ```
 
-- 成功运行后，您将看到以下菜单, 根据提示安装即可。
+> - 成功运行后，您将看到以下菜单, 根据提示安装即可。
 
-![screenshot](https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/install.gif)
+> ![screenshot](https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/image/install.gif)
 
 ### 加入聊天组
 
