@@ -3,5 +3,6 @@
     "PoolNodeAndroidVersion": "1.0.1",
     "PoolNodeIosVersion": "1.0.1",
     "RustMinerSystemIOSVersion": "1.0.0",
-    "RustMinerSystemAndroidVersion": "1.0.0"
+    "RustMinerSystemAndroidVersion": "1.0.0",
+    "RMS": "3.1.10"
 }
