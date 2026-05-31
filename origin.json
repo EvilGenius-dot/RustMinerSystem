@@ -7,135 +7,127 @@
     "RMS": "3.1.10",
     "PAY": {},
     "APP_INFO": {
-        "version": "4.6.7",
-        "PoolNodeAndroidVersion": "1.0.1",
-        "PoolNodeIosVersion": "1.0.1",
-        "RustMinerSystemIOSVersion": "1.0.0",
-        "RustMinerSystemAndroidVersion": "1.0.0",
-        "RMS": "3.1.10",
-        "APP_INFO": {
-            "dialog": {
-                "title": "APP",
-                "description": "查看 RustMinerSystemAPP 与 PoolNodeAPP 的移动端介绍和发布状态。"
-            },
-            "overview": {
-                "eyebrow": "移动端生态",
-                "title": "RustMinerSystem 移动应用矩阵",
-                "description": "RustMinerSystemAPP 面向系统运维，PoolNodeAPP 面向矿池节点终端用户，两者共同覆盖后台管理与用户侧查询场景。",
-                "counterLabel": "应用数量"
-            },
-            "apps": [
-                {
-                    "key": "rustMinerSystemApp",
-                    "name": "RustMinerSystemAPP",
-                    "title": "RustMinerApp 移动控制台",
-                    "tagline": "把 RustMinerSystem 运维带到手机上",
-                    "description": "面向 RustMinerSystem 运维的移动端控制台，用于查看矿池代理、矿池节点、服务器状态、端口、钱包和矿工算力数据。",
-                    "status": "应用暂未上线",
-                    "icon": "server",
-                    "tone": "info",
-                    "features": [
-                        "矿池代理总览",
-                        "矿工与算力详情",
-                        "服务器状态"
-                    ],
-                    "actions": [
-                        {
-                            "key": "official",
-                            "label": "打开官网介绍",
-                            "url": "https://minerproxy.org/zh/download/rustminerapp-mobile-app",
-                            "icon": "external"
-                        }
-                    ],
-                    "preview": {
-                        "enabled": true
-                    },
-                    "platforms": [
-                        {
-                            "key": "ios",
-                            "label": "iOS",
-                            "status": "暂未上线",
-                            "description": "App Store 链接准备中，正式发布后会补齐下载入口。",
-                            "icon": "ios",
-                            "stateLabel": "暂未上线",
-                            "actions": []
-                        },
-                        {
-                            "key": "android",
-                            "label": "Android",
-                            "status": "暂未上线",
-                            "description": "APK 安装包准备中，正式发布后会补齐下载入口与二维码。",
-                            "icon": "android",
-                            "stateLabel": "暂未上线",
-                            "actions": []
-                        }
-                    ]
+        "dialog": {
+            "title": "APP",
+            "description": "查看 RustMinerSystemAPP 与 PoolNodeAPP 的移动端介绍和发布状态。"
+        },
+        "overview": {
+            "eyebrow": "移动端生态",
+            "title": "RustMinerSystem 移动应用矩阵",
+            "description": "RustMinerSystemAPP 面向系统运维，PoolNodeAPP 面向矿池节点终端用户，两者共同覆盖后台管理与用户侧查询场景。",
+            "counterLabel": "应用数量"
+        },
+        "apps": [
+            {
+                "key": "rustMinerSystemApp",
+                "name": "RustMinerSystemAPP",
+                "title": "RustMinerApp 移动控制台",
+                "tagline": "把 RustMinerSystem 运维带到手机上",
+                "description": "面向 RustMinerSystem 运维的移动端控制台，用于查看矿池代理、矿池节点、服务器状态、端口、钱包和矿工算力数据。",
+                "status": "应用暂未上线",
+                "icon": "server",
+                "tone": "info",
+                "features": [
+                    "矿池代理总览",
+                    "矿工与算力详情",
+                    "服务器状态"
+                ],
+                "actions": [
+                    {
+                        "key": "official",
+                        "label": "打开官网介绍",
+                        "url": "https://minerproxy.org/zh/download/rustminerapp-mobile-app",
+                        "icon": "external"
+                    }
+                ],
+                "preview": {
+                    "enabled": true
                 },
-                {
-                    "key": "poolNodeApp",
-                    "name": "PoolNodeAPP",
-                    "title": "PoolNode 移动应用",
-                    "tagline": "矿池节点用户终端",
-                    "description": "基于 RustMinerSystem 搭建的矿池节点用户终端，为矿池用户提供收益、算力、矿工与资产数据的移动端入口。",
-                    "status": "Latest Release Android v1.0.1 / iOS v1.0.1",
-                    "icon": "mobile",
-                    "tone": "success",
-                    "features": [
-                        "节点收益看板",
-                        "矿工与算力",
-                        "资产与记录"
-                    ],
-                    "actions": [
-                        {
-                            "key": "official",
-                            "label": "打开官网介绍",
-                            "url": "https://minerproxy.org/zh/download/poolnode-mobile-app",
-                            "icon": "external"
-                        },
-                        {
-                            "key": "guide",
-                            "label": "阅读使用教程",
-                            "url": "https://minerproxy.org/zh/document/installation",
-                            "icon": "external"
-                        }
-                    ],
-                    "preview": {
-                        "enabled": true
+                "platforms": [
+                    {
+                        "key": "ios",
+                        "label": "iOS",
+                        "status": "暂未上线",
+                        "description": "App Store 链接准备中，正式发布后会补齐下载入口。",
+                        "icon": "ios",
+                        "stateLabel": "暂未上线",
+                        "actions": []
                     },
-                    "platforms": [
-                        {
-                            "key": "android",
-                            "label": "Android APK",
-                            "status": "Latest Release v1.0.1",
-                            "description": "可直接下载 APK 安装包，安装时按系统安全提示允许本次安装。",
-                            "icon": "android",
-                            "actions": [
-                                {
-                                    "key": "download",
-                                    "label": "下载 Android APK",
-                                    "url": "https://github.com/EvilGenius-dot/RustMinerSystem/raw/refs/heads/main/APP/PoolNode/Android/PoolNode.apk",
-                                    "icon": "download"
-                                }
-                            ]
-                        },
-                        {
-                            "key": "ios",
-                            "label": "iOS App Store",
-                            "status": "Latest Release v1.0.1",
-                            "description": "通过 App Store 获取，当前 iOS 版本需要使用港区或美区 Apple ID。",
-                            "icon": "ios",
-                            "actions": [
-                                {
-                                    "key": "appStore",
-                                    "label": "前往 App Store",
-                                    "url": "https://apps.apple.com/hk/app/poolnode/id6754824577",
-                                    "icon": "download"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
+                    {
+                        "key": "android",
+                        "label": "Android",
+                        "status": "暂未上线",
+                        "description": "APK 安装包准备中，正式发布后会补齐下载入口与二维码。",
+                        "icon": "android",
+                        "stateLabel": "暂未上线",
+                        "actions": []
+                    }
+                ]
+            },
+            {
+                "key": "poolNodeApp",
+                "name": "PoolNodeAPP",
+                "title": "PoolNode 移动应用",
+                "tagline": "矿池节点用户终端",
+                "description": "基于 RustMinerSystem 搭建的矿池节点用户终端，为矿池用户提供收益、算力、矿工与资产数据的移动端入口。",
+                "status": "Latest Release Android v1.0.1 / iOS v1.0.1",
+                "icon": "mobile",
+                "tone": "success",
+                "features": [
+                    "节点收益看板",
+                    "矿工与算力",
+                    "资产与记录"
+                ],
+                "actions": [
+                    {
+                        "key": "official",
+                        "label": "打开官网介绍",
+                        "url": "https://minerproxy.org/zh/download/poolnode-mobile-app",
+                        "icon": "external"
+                    },
+                    {
+                        "key": "guide",
+                        "label": "阅读使用教程",
+                        "url": "https://minerproxy.org/zh/document/installation",
+                        "icon": "external"
+                    }
+                ],
+                "preview": {
+                    "enabled": true
+                },
+                "platforms": [
+                    {
+                        "key": "android",
+                        "label": "Android APK",
+                        "status": "Latest Release v1.0.1",
+                        "description": "可直接下载 APK 安装包，安装时按系统安全提示允许本次安装。",
+                        "icon": "android",
+                        "actions": [
+                            {
+                                "key": "download",
+                                "label": "下载 Android APK",
+                                "url": "https://github.com/EvilGenius-dot/RustMinerSystem/raw/refs/heads/main/APP/PoolNode/Android/PoolNode.apk",
+                                "icon": "download"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "ios",
+                        "label": "iOS App Store",
+                        "status": "Latest Release v1.0.1",
+                        "description": "通过 App Store 获取，当前 iOS 版本需要使用港区或美区 Apple ID。",
+                        "icon": "ios",
+                        "actions": [
+                            {
+                                "key": "appStore",
+                                "label": "前往 App Store",
+                                "url": "https://apps.apple.com/hk/app/poolnode/id6754824577",
+                                "icon": "download"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }
