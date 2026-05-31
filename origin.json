@@ -5,39 +5,115 @@
     "RustMinerSystemIOSVersion": "1.0.0",
     "RustMinerSystemAndroidVersion": "1.0.0",
     "RMS": "3.1.10",
-    "PAY": {},
     "APP_INFO": {
         "dialog": {
-            "title": "APP",
-            "description": "查看 RustMinerSystemAPP 与 PoolNodeAPP 的移动端介绍和发布状态。"
+            "title": {
+                "zh": "APP",
+                "en": "APP",
+                "ru": "APP",
+                "jp": "APP"
+            },
+            "description": {
+                "zh": "查看 RustMinerSystemAPP 与 PoolNodeAPP 的移动端介绍和发布状态。",
+                "en": "View the mobile app introductions and release status for RustMinerSystemAPP and PoolNodeAPP.",
+                "ru": "Просмотр описания мобильных приложений RustMinerSystemAPP и PoolNodeAPP, а также их статуса выпуска.",
+                "jp": "RustMinerSystemAPP と PoolNodeAPP のモバイルアプリ紹介とリリース状況を確認できます。"
+            }
         },
         "overview": {
-            "eyebrow": "移动端生态",
-            "title": "RustMinerSystem 移动应用矩阵",
-            "description": "RustMinerSystemAPP 面向系统运维，PoolNodeAPP 面向矿池节点终端用户，两者共同覆盖后台管理与用户侧查询场景。",
-            "counterLabel": "应用数量"
+            "eyebrow": {
+                "zh": "移动端生态",
+                "en": "Mobile ecosystem",
+                "ru": "Мобильная экосистема",
+                "jp": "モバイルエコシステム"
+            },
+            "title": {
+                "zh": "RustMinerSystem 移动应用矩阵",
+                "en": "RustMinerSystem mobile app suite",
+                "ru": "Набор мобильных приложений RustMinerSystem",
+                "jp": "RustMinerSystem モバイルアプリ群"
+            },
+            "description": {
+                "zh": "RustMinerSystemAPP 面向系统运维，PoolNodeAPP 面向矿池节点终端用户，两者共同覆盖后台管理与用户侧查询场景。",
+                "en": "RustMinerSystemAPP is built for system operations, while PoolNodeAPP is built for pool node end users, covering both admin management and user-side query scenarios.",
+                "ru": "RustMinerSystemAPP предназначено для системного администрирования, а PoolNodeAPP — для конечных пользователей узлов пула; вместе они покрывают управление в панели администратора и пользовательские запросы.",
+                "jp": "RustMinerSystemAPP はシステム運用向け、PoolNodeAPP はプールノードのエンドユーザー向けで、管理画面とユーザー側の確認シーンをまとめてカバーします。"
+            },
+            "counterLabel": {
+                "zh": "应用数量",
+                "en": "Apps",
+                "ru": "Приложения",
+                "jp": "アプリ数"
+            }
         },
         "apps": [
             {
                 "key": "rustMinerSystemApp",
-                "name": "RustMinerSystemAPP",
-                "title": "RustMinerApp 移动控制台",
-                "tagline": "把 RustMinerSystem 运维带到手机上",
-                "description": "面向 RustMinerSystem 运维的移动端控制台，用于查看矿池代理、矿池节点、服务器状态、端口、钱包和矿工算力数据。",
-                "status": "应用暂未上线",
+                "name": {
+                    "zh": "RustMinerSystemAPP",
+                    "en": "RustMinerSystemAPP",
+                    "ru": "RustMinerSystemAPP",
+                    "jp": "RustMinerSystemAPP"
+                },
+                "title": {
+                    "zh": "RustMinerApp 移动控制台",
+                    "en": "RustMinerApp mobile console",
+                    "ru": "Мобильная консоль RustMinerApp",
+                    "jp": "RustMinerApp モバイルコンソール"
+                },
+                "tagline": {
+                    "zh": "把 RustMinerSystem 运维带到手机上",
+                    "en": "Bring RustMinerSystem operations to your phone",
+                    "ru": "Управляйте RustMinerSystem с телефона",
+                    "jp": "RustMinerSystem の運用をスマートフォンへ"
+                },
+                "description": {
+                    "zh": "面向 RustMinerSystem 运维的移动端控制台，用于查看矿池代理、矿池节点、服务器状态、端口、钱包和矿工算力数据。",
+                    "en": "A mobile operations console for RustMinerSystem, used to view proxy, pool node, server status, port, wallet, miner, and hashrate data.",
+                    "ru": "Мобильная консоль управления RustMinerSystem для просмотра прокси пула, узлов пула, состояния серверов, портов, кошельков, майнеров и хешрейта.",
+                    "jp": "RustMinerSystem 運用向けのモバイルコンソールです。プールプロキシ、プールノード、サーバー状態、ポート、ウォレット、マイナー、ハッシュレートデータを確認できます。"
+                },
+                "status": {
+                    "zh": "应用暂未上线",
+                    "en": "App not released yet",
+                    "ru": "Приложение пока не выпущено",
+                    "jp": "アプリはまだ公開されていません"
+                },
                 "icon": "server",
                 "tone": "info",
                 "features": [
-                    "矿池代理总览",
-                    "矿工与算力详情",
-                    "服务器状态"
+                    {
+                        "zh": "矿池代理总览",
+                        "en": "Proxy overview",
+                        "ru": "Обзор прокси пула",
+                        "jp": "プールプロキシ概要"
+                    },
+                    {
+                        "zh": "矿工与算力详情",
+                        "en": "Miner and hashrate details",
+                        "ru": "Данные майнеров и хешрейта",
+                        "jp": "マイナーとハッシュレート詳細"
+                    },
+                    {
+                        "zh": "服务器状态",
+                        "en": "Server status",
+                        "ru": "Состояние сервера",
+                        "jp": "サーバー状態"
+                    }
                 ],
                 "actions": [
                     {
                         "key": "official",
-                        "label": "打开官网介绍",
+                        "label": {
+                            "zh": "打开官网介绍",
+                            "en": "Open official page",
+                            "ru": "Открыть официальную страницу",
+                            "jp": "公式紹介ページを開く"
+                        },
                         "url": "https://minerproxy.org/zh/download/rustminerapp-mobile-app",
-                        "icon": "external"
+                        "icon": "external",
+                        "target": "_blank",
+                        "rel": "noopener noreferrer"
                     }
                 ],
                 "preview": {
@@ -46,50 +122,144 @@
                 "platforms": [
                     {
                         "key": "ios",
-                        "label": "iOS",
-                        "status": "暂未上线",
-                        "description": "App Store 链接准备中，正式发布后会补齐下载入口。",
+                        "label": {
+                            "zh": "iOS",
+                            "en": "iOS",
+                            "ru": "iOS",
+                            "jp": "iOS"
+                        },
+                        "status": {
+                            "zh": "暂未上线",
+                            "en": "Not released",
+                            "ru": "Пока не выпущено",
+                            "jp": "未公開"
+                        },
+                        "description": {
+                            "zh": "App Store 链接准备中，正式发布后会补齐下载入口。",
+                            "en": "The App Store link is being prepared and will be added after the official release.",
+                            "ru": "Ссылка на App Store готовится и будет добавлена после официального выпуска.",
+                            "jp": "App Store リンクは準備中です。正式公開後にダウンロード入口を追加します。"
+                        },
                         "icon": "ios",
-                        "stateLabel": "暂未上线",
+                        "stateLabel": {
+                            "zh": "暂未上线",
+                            "en": "Not released",
+                            "ru": "Пока не выпущено",
+                            "jp": "未公開"
+                        },
                         "actions": []
                     },
                     {
                         "key": "android",
-                        "label": "Android",
-                        "status": "暂未上线",
-                        "description": "APK 安装包准备中，正式发布后会补齐下载入口与二维码。",
+                        "label": {
+                            "zh": "Android",
+                            "en": "Android",
+                            "ru": "Android",
+                            "jp": "Android"
+                        },
+                        "status": {
+                            "zh": "暂未上线",
+                            "en": "Not released",
+                            "ru": "Пока не выпущено",
+                            "jp": "未公開"
+                        },
+                        "description": {
+                            "zh": "APK 安装包准备中，正式发布后会补齐下载入口与二维码。",
+                            "en": "The APK package is being prepared and will include a download entry and QR code after release.",
+                            "ru": "APK-файл готовится; после выпуска будут добавлены ссылка для скачивания и QR-код.",
+                            "jp": "APK パッケージは準備中です。正式公開後にダウンロード入口と QR コードを追加します。"
+                        },
                         "icon": "android",
-                        "stateLabel": "暂未上线",
+                        "stateLabel": {
+                            "zh": "暂未上线",
+                            "en": "Not released",
+                            "ru": "Пока не выпущено",
+                            "jp": "未公開"
+                        },
                         "actions": []
                     }
                 ]
             },
             {
                 "key": "poolNodeApp",
-                "name": "PoolNodeAPP",
-                "title": "PoolNode 移动应用",
-                "tagline": "矿池节点用户终端",
-                "description": "基于 RustMinerSystem 搭建的矿池节点用户终端，为矿池用户提供收益、算力、矿工与资产数据的移动端入口。",
-                "status": "Latest Release Android v1.0.1 / iOS v1.0.1",
+                "name": {
+                    "zh": "PoolNodeAPP",
+                    "en": "PoolNodeAPP",
+                    "ru": "PoolNodeAPP",
+                    "jp": "PoolNodeAPP"
+                },
+                "title": {
+                    "zh": "PoolNode 移动应用",
+                    "en": "PoolNode mobile app",
+                    "ru": "Мобильное приложение PoolNode",
+                    "jp": "PoolNode モバイルアプリ"
+                },
+                "tagline": {
+                    "zh": "矿池节点用户终端",
+                    "en": "Pool node user terminal",
+                    "ru": "Пользовательский терминал узла пула",
+                    "jp": "プールノードユーザー端末"
+                },
+                "description": {
+                    "zh": "基于 RustMinerSystem 搭建的矿池节点用户终端，为矿池用户提供收益、算力、矿工与资产数据的移动端入口。",
+                    "en": "A pool node user terminal built on RustMinerSystem, providing pool users with mobile access to earnings, hashrate, miner, and asset data.",
+                    "ru": "Пользовательский терминал узла пула на базе RustMinerSystem, предоставляющий мобильный доступ к доходам, хешрейту, майнерам и данным активов.",
+                    "jp": "RustMinerSystem を基盤にしたプールノード用ユーザー端末です。収益、ハッシュレート、マイナー、資産データへモバイルからアクセスできます。"
+                },
+                "status": {
+                    "zh": "Latest Release Android v1.0.1 / iOS v1.0.1",
+                    "en": "Latest Release Android v1.0.1 / iOS v1.0.1",
+                    "ru": "Последний выпуск Android v1.0.1 / iOS v1.0.1",
+                    "jp": "最新リリース Android v1.0.1 / iOS v1.0.1"
+                },
                 "icon": "mobile",
                 "tone": "success",
                 "features": [
-                    "节点收益看板",
-                    "矿工与算力",
-                    "资产与记录"
+                    {
+                        "zh": "节点收益看板",
+                        "en": "Node earnings dashboard",
+                        "ru": "Панель доходов узла",
+                        "jp": "ノード収益ダッシュボード"
+                    },
+                    {
+                        "zh": "矿工与算力",
+                        "en": "Miners and hashrate",
+                        "ru": "Майнеры и хешрейт",
+                        "jp": "マイナーとハッシュレート"
+                    },
+                    {
+                        "zh": "资产与记录",
+                        "en": "Assets and records",
+                        "ru": "Активы и записи",
+                        "jp": "資産と履歴"
+                    }
                 ],
                 "actions": [
                     {
                         "key": "official",
-                        "label": "打开官网介绍",
+                        "label": {
+                            "zh": "打开官网介绍",
+                            "en": "Open official page",
+                            "ru": "Открыть официальную страницу",
+                            "jp": "公式紹介ページを開く"
+                        },
                         "url": "https://minerproxy.org/zh/download/poolnode-mobile-app",
-                        "icon": "external"
+                        "icon": "external",
+                        "target": "_blank",
+                        "rel": "noopener noreferrer"
                     },
                     {
                         "key": "guide",
-                        "label": "阅读使用教程",
+                        "label": {
+                            "zh": "阅读使用教程",
+                            "en": "Read guide",
+                            "ru": "Открыть руководство",
+                            "jp": "利用ガイドを読む"
+                        },
                         "url": "https://minerproxy.org/zh/document/installation",
-                        "icon": "external"
+                        "icon": "external",
+                        "target": "_blank",
+                        "rel": "noopener noreferrer"
                     }
                 ],
                 "preview": {
@@ -98,36 +268,81 @@
                 "platforms": [
                     {
                         "key": "android",
-                        "label": "Android APK",
-                        "status": "Latest Release v1.0.1",
-                        "description": "可直接下载 APK 安装包，安装时按系统安全提示允许本次安装。",
+                        "label": {
+                            "zh": "Android APK",
+                            "en": "Android APK",
+                            "ru": "Android APK",
+                            "jp": "Android APK"
+                        },
+                        "status": {
+                            "zh": "Latest Release v1.0.1",
+                            "en": "Latest Release v1.0.1",
+                            "ru": "Последний выпуск v1.0.1",
+                            "jp": "最新リリース v1.0.1"
+                        },
+                        "description": {
+                            "zh": "可直接下载 APK 安装包，安装时按系统安全提示允许本次安装。",
+                            "en": "Download the APK package directly. During installation, allow this install according to the system security prompt.",
+                            "ru": "APK-файл можно скачать напрямую. При установке разрешите установку согласно системному предупреждению безопасности.",
+                            "jp": "APK パッケージを直接ダウンロードできます。インストール時はシステムのセキュリティ表示に従い、このインストールを許可してください。"
+                        },
                         "icon": "android",
                         "actions": [
                             {
                                 "key": "download",
-                                "label": "下载 Android APK",
+                                "label": {
+                                    "zh": "下载 Android APK",
+                                    "en": "Download Android APK",
+                                    "ru": "Скачать Android APK",
+                                    "jp": "Android APK をダウンロード"
+                                },
                                 "url": "https://github.com/EvilGenius-dot/RustMinerSystem/raw/refs/heads/main/APP/PoolNode/Android/PoolNode.apk",
-                                "icon": "download"
+                                "icon": "download",
+                                "target": "_blank",
+                                "rel": "noopener noreferrer"
                             }
                         ]
                     },
                     {
                         "key": "ios",
-                        "label": "iOS App Store",
-                        "status": "Latest Release v1.0.1",
-                        "description": "通过 App Store 获取，当前 iOS 版本需要使用港区或美区 Apple ID。",
+                        "label": {
+                            "zh": "iOS App Store",
+                            "en": "iOS App Store",
+                            "ru": "iOS App Store",
+                            "jp": "iOS App Store"
+                        },
+                        "status": {
+                            "zh": "Latest Release v1.0.1",
+                            "en": "Latest Release v1.0.1",
+                            "ru": "Последний выпуск v1.0.1",
+                            "jp": "最新リリース v1.0.1"
+                        },
+                        "description": {
+                            "zh": "通过 App Store 获取，当前 iOS 版本需要使用港区或美区 Apple ID。",
+                            "en": "Get it through the App Store. The current iOS version requires a Hong Kong or US Apple ID.",
+                            "ru": "Получите приложение через App Store. Текущая версия iOS требует Apple ID региона Гонконг или США.",
+                            "jp": "App Store から入手できます。現在の iOS 版は香港または米国リージョンの Apple ID が必要です。"
+                        },
                         "icon": "ios",
                         "actions": [
                             {
                                 "key": "appStore",
-                                "label": "前往 App Store",
+                                "label": {
+                                    "zh": "前往 App Store",
+                                    "en": "Open App Store",
+                                    "ru": "Открыть App Store",
+                                    "jp": "App Store を開く"
+                                },
                                 "url": "https://apps.apple.com/hk/app/poolnode/id6754824577",
-                                "icon": "download"
+                                "icon": "download",
+                                "target": "_blank",
+                                "rel": "noopener noreferrer"
                             }
                         ]
                     }
                 ]
             }
         ]
-    }
+    },
+    "PAY": {}
 }
