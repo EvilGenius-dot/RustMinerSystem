@@ -18,6 +18,10 @@
 </p>
 
 <p align="center">
+  <a href="http://minerproxy.org/">http://minerproxy.org/</a>
+</p>
+
+<p align="center">
   <a href="https://rustminersystem.gitbook.io/rustminersystem/chuan-tong-kuang-chi-dai-li/dai-li-chuan-tong-kuang-chi">矿池代理(抽水)</a> •
   <a href="https://rustminersystem.gitbook.io/rustminersystem/zi-jian-kuang-chi-jie-dian/cheng-wei-kuang-chi-jie-dian">自建矿池</a> •
   <a href="https://github.com/EvilGenius-dot/RMS">加密压缩</a> •
