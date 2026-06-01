@@ -26,7 +26,8 @@
   <a href="https://rustminersystem.gitbook.io/rustminersystem/guan-yu/fu-wu-xie-yi">服务协议</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/EvilGenius-dot/RustMinerSystem/main/image/review.gif)
+<!-- ![screenshot](https://raw.githubusercontent.com/EvilGenius-dot/RustMinerSystem/main/image/review.gif) -->
+![screenshot](https://raw.githubusercontent.com/EvilGenius-dot/RustMinerSystem/main/image/rustminer-product-demo.webp)
 
 ## RustMinerSystem
 
