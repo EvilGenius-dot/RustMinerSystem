@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <a href="http://minerproxy.org/">http://minerproxy.org/</a>
+  <a href="http://minerproxy.org/">🌍http://minerproxy.org/</a>
 </p>
 
 <p align="center">
