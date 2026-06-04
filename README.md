@@ -37,9 +37,9 @@
 <p>
   简体中文
   ·
-  <a href="Readme/i18n/zh-EN/README.md">English</a>
+  <a href="Readme/en/README.md">English</a>
   ·
-  <a href="Readme/i18n/zh-RU/README.md">Русский язык</a>
+  <a href="Readme/ru/README.md">Русский язык</a>
 </p>
 
 <img src="image/rustminer-product-demo.webp" alt="RustMinerSystem 产品预览" width="920">
