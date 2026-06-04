@@ -35,9 +35,9 @@
 </p>
 
 <p>
-  <a href="../../README.md">简体中文</a>
+  <a href="https://github.com/EvilGenius-dot/RustMinerSystem">简体中文</a>
   ·
-  <a href="../en/README.md">English</a>
+  <a href="https://github.com/EvilGenius-dot/RustMinerSystem/tree/main/Readme/en">English</a>
   ·
   Русский язык
 </p>
