@@ -8,6 +8,9 @@ APP_ID="rustminersystem"
 DOWNLOAD_HOST="https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/linux"
 
 SERVICE_NAME="rustservice"
+PROCESS_WAIT_INTERVAL="0.1"
+PROCESS_WAIT_STEPS_PER_SECOND=10
+PROCESS_WAIT_INTERVAL_SUPPORTED=""
 
 PATH_RUST="/root/${APP_ID}"
 PATH_EXEC="${APP_ID}"
@@ -109,6 +112,7 @@ load_language() {
         msg_process_label="process"
         msg_process_terminated="Terminated"
         msg_stopping_process="Stopping process"
+        msg_stop_timeout="Process did not stop within timeout"
         msg_enable_autostart="Set up automatic startup"
         msg_disable_autostart="Disable automatic startup..."
         msg_failed="Failed"
@@ -220,6 +224,7 @@ load_language() {
         msg_process_label="进程"
         msg_process_terminated="终止"
         msg_stopping_process="停止进程"
+        msg_stop_timeout="进程在等待时间内未停止"
         msg_enable_autostart="设置开机启动"
         msg_disable_autostart="关闭开机启动..."
         msg_failed="失败"
@@ -516,6 +521,75 @@ check_process() {
     pgrep -x "$1" >/dev/null
 }
 
+is_fast_process_wait_supported() {
+    if [ -n "$PROCESS_WAIT_INTERVAL_SUPPORTED" ]; then
+        [ "$PROCESS_WAIT_INTERVAL_SUPPORTED" = "1" ]
+        return
+    fi
+
+    if sleep "$PROCESS_WAIT_INTERVAL" 2>/dev/null; then
+        PROCESS_WAIT_INTERVAL_SUPPORTED="1"
+        return 0
+    fi
+
+    PROCESS_WAIT_INTERVAL_SUPPORTED="0"
+    return 1
+}
+
+wait_for_process_started() {
+    local process_name="$1"
+    local timeout="${2:-10}"
+    local interval="1"
+    local max_attempts="$timeout"
+    local attempts=0
+
+    if check_process "$process_name"; then
+        return 0
+    fi
+
+    if is_fast_process_wait_supported; then
+        interval="$PROCESS_WAIT_INTERVAL"
+        max_attempts=$((timeout * PROCESS_WAIT_STEPS_PER_SECOND))
+    fi
+
+    while [ "$attempts" -lt "$max_attempts" ]; do
+        if check_process "$process_name"; then
+            return 0
+        fi
+        sleep "$interval"
+        attempts=$((attempts + 1))
+    done
+
+    return 1
+}
+
+wait_for_process_stopped() {
+    local process_name="$1"
+    local timeout="${2:-10}"
+    local interval="1"
+    local max_attempts="$timeout"
+    local attempts=0
+
+    if ! check_process "$process_name"; then
+        return 0
+    fi
+
+    if is_fast_process_wait_supported; then
+        interval="$PROCESS_WAIT_INTERVAL"
+        max_attempts=$((timeout * PROCESS_WAIT_STEPS_PER_SECOND))
+    fi
+
+    while [ "$attempts" -lt "$max_attempts" ]; do
+        if ! check_process "$process_name"; then
+            return 0
+        fi
+        sleep "$interval"
+        attempts=$((attempts + 1))
+    done
+
+    return 1
+}
+
 set_port() {
     read -p "$(echo -e "$prompt_set_port")" choose
 
@@ -800,11 +874,7 @@ start() {
             nohup "$PATH_RUST/$PATH_EXEC" >> "$PATH_NOHUP" 2>> "$PATH_ERR" &
         fi
 
-        sleep 1
-
-        check_process $PATH_EXEC
-
-        if [ $? -eq 0 ]; then
+        if wait_for_process_started "$PATH_EXEC" 10; then
             clear   
             port=$(getConfig "START_PORT")
             https=$(getConfig "ENABLE_WEB_TLS")
@@ -851,7 +921,6 @@ stop() {
 
     if is_systemd_available && [ -f "/etc/systemd/system/${SERVICE_NAME}.service" ]; then
         systemctl stop "${SERVICE_NAME}.service"
-        sleep 1
     fi
 
     if check_process "$PATH_EXEC"; then
@@ -859,24 +928,28 @@ stop() {
     else
         echo "${msg_process_not_found} $PATH_EXEC ${msg_process_label}."
     fi
-
-    sleep 1
 }
 
 kill_process() {
     local process_name="$1"
-  local pids=($(pgrep -x "$process_name"))
-  if [ ${#pids[@]} -eq 0 ]; then
-    echo "${msg_process_not_found} $process_name ${msg_process_label}."
-    return 1
-  fi
-  for pid in "${pids[@]}"; do
-    echo "${msg_stopping_process} $pid ..."
-    kill -TERM "$pid"
-  done
-  echo "${msg_process_terminated} $process_name ."
+    local pids=($(pgrep -x "$process_name"))
 
-  sleep 1
+    if [ ${#pids[@]} -eq 0 ]; then
+        echo "${msg_process_not_found} $process_name ${msg_process_label}."
+        return 1
+    fi
+
+    for pid in "${pids[@]}"; do
+        echo "${msg_stopping_process} $pid ..."
+        kill -TERM "$pid"
+    done
+
+    if wait_for_process_stopped "$process_name" 10; then
+        echo "${msg_process_terminated} $process_name ."
+    else
+        echo "${msg_stop_timeout}: $process_name ."
+        return 1
+    fi
 }
 
 enable_autostart() {
@@ -905,8 +978,6 @@ disable_autostart() {
     else
         sed -i "/${PATH_EXEC}/d" /etc/rc.local 2>/dev/null || true
     fi
-
-    sleep 1
 }
 
 
