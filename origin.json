@@ -5,7 +5,7 @@
     "RustMinerSystemIOSVersion": "1.0.0",
     "RustMinerSystemAndroidVersion": "1.0.0",
     "RMS": "3.1.10",
-    "RustMinerSystemCliVersion": "1.0.0",
+    "RustMinerSystemCliVersion": "0.1.0",
     "APP_INFO": {
         "dialog": {
             "title": {
