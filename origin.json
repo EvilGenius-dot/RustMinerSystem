@@ -75,13 +75,13 @@
                     "jp": "RustMinerSystem 運用向けのモバイルコンソールです。プールプロキシ、プールノード、サーバー状態、ポート、ウォレット、マイナー、ハッシュレートデータを確認できます。"
                 },
                 "status": {
-                    "zh": "Latest Release iOS v1.0.1",
-                    "en": "Latest Release iOS v1.0.1",
-                    "ru": "Последний выпуск iOS v1.0.1",
-                    "jp": "最新リリース iOS v1.0.1"
+                    "zh": "Latest Release Android v1.0.1 / iOS v1.0.1",
+                    "en": "Latest Release Android v1.0.1 / iOS v1.0.1",
+                    "ru": "Последний выпуск Android v1.0.1 / iOS v1.0.1",
+                    "jp": "最新リリース Android v1.0.1 / iOS v1.0.1"
                 },
                 "icon": "server",
-                "tone": "info",
+                "tone": "success",
                 "features": [
                     {
                         "zh": "矿池代理总览",
@@ -167,31 +167,45 @@
                     {
                         "key": "android",
                         "label": {
-                            "zh": "Android",
-                            "en": "Android",
-                            "ru": "Android",
-                            "jp": "Android"
+                            "zh": "Android APK",
+                            "en": "Android APK",
+                            "ru": "Android APK",
+                            "jp": "Android APK"
                         },
                         "status": {
-                            "zh": "暂未上线",
-                            "en": "Not released",
-                            "ru": "Пока не выпущено",
-                            "jp": "未公開"
+                            "zh": "Latest Release v1.0.1",
+                            "en": "Latest Release v1.0.1",
+                            "ru": "Последний выпуск v1.0.1",
+                            "jp": "最新リリース v1.0.1"
                         },
                         "description": {
-                            "zh": "APK 安装包准备中，正式发布后会补齐下载入口与二维码。",
-                            "en": "The APK package is being prepared and will include a download entry and QR code after release.",
-                            "ru": "APK-файл готовится; после выпуска будут добавлены ссылка для скачивания и QR-код.",
-                            "jp": "APK パッケージは準備中です。正式公開後にダウンロード入口と QR コードを追加します。"
+                            "zh": "可直接下载 APK 安装包，安装时按系统安全提示允许本次安装。",
+                            "en": "Download the APK package directly. During installation, allow this install according to the system security prompt.",
+                            "ru": "APK-файл можно скачать напрямую. При установке разрешите установку согласно системному предупреждению безопасности.",
+                            "jp": "APK パッケージを直接ダウンロードできます。インストール時はシステムのセキュリティ表示に従い、このインストールを許可してください。"
                         },
                         "icon": "android",
                         "stateLabel": {
-                            "zh": "暂未上线",
-                            "en": "Not released",
-                            "ru": "Пока не выпущено",
-                            "jp": "未公開"
+                            "zh": "已上线",
+                            "en": "Released",
+                            "ru": "Выпущено",
+                            "jp": "公開済み"
                         },
-                        "actions": []
+                        "actions": [
+                            {
+                                "key": "download",
+                                "label": {
+                                    "zh": "下载 Android APK",
+                                    "en": "Download Android APK",
+                                    "ru": "Скачать Android APK",
+                                    "jp": "Android APK をダウンロード"
+                                },
+                                "url": "https://github.com/EvilGenius-dot/RustMinerSystem/raw/refs/heads/main/APP/RustMinerSystem/Android/RustMinerSystem1.0.1.apk",
+                                "icon": "download",
+                                "target": "_blank",
+                                "rel": "noopener noreferrer"
+                            }
+                        ]
                     }
                 ]
             },
