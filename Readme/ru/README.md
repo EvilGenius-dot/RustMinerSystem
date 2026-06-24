@@ -79,7 +79,7 @@ bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/ins
 Если GitHub работает медленно или недоступен в вашем регионе, попробуйте резервный адрес установки:
 
 ```sh
-bash <(curl -s -L -k https://rustminersystem.com/EvilGenius-dot/RustMinerSystem/raw/main/install.sh)
+bash <(curl -s -L -k http://static.rustminersystem.com/EvilGenius-dot/RustMinerSystem/raw/main/install.sh)
 ```
 
 ARM:

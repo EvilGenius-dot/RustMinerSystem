@@ -79,7 +79,7 @@ bash <(curl -s -L https://github.com/EvilGenius-dot/RustMinerSystem/raw/main/ins
 如果所在地区访问 GitHub 较慢，可尝试备用安装地址：
 
 ```sh
-bash <(curl -s -L -k https://rustminersystem.com/EvilGenius-dot/RustMinerSystem/raw/main/install.sh)
+bash <(curl -s -L -k http://static.rustminersystem.com/EvilGenius-dot/RustMinerSystem/raw/main/install.sh)
 ```
 
 ARM 架构：
