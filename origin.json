@@ -2,8 +2,8 @@
     "version": "5.0.2",
     "PoolNodeAndroidVersion": "1.0.1",
     "PoolNodeIosVersion": "1.0.1",
-    "RustMinerSystemIOSVersion": "1.0.0",
-    "RustMinerSystemAndroidVersion": "1.0.0",
+    "RustMinerSystemIOSVersion": "1.0.1",
+    "RustMinerSystemAndroidVersion": "1.0.1",
     "RMS": "3.1.10",
     "RustMinerSystemCliVersion": "0.1.0",
     "APP_INFO": {
@@ -75,10 +75,10 @@
                     "jp": "RustMinerSystem 運用向けのモバイルコンソールです。プールプロキシ、プールノード、サーバー状態、ポート、ウォレット、マイナー、ハッシュレートデータを確認できます。"
                 },
                 "status": {
-                    "zh": "Latest Release iOS v1.0.0",
-                    "en": "Latest Release iOS v1.0.0",
-                    "ru": "Последний выпуск iOS v1.0.0",
-                    "jp": "最新リリース iOS v1.0.0"
+                    "zh": "Latest Release iOS v1.0.1",
+                    "en": "Latest Release iOS v1.0.1",
+                    "ru": "Последний выпуск iOS v1.0.1",
+                    "jp": "最新リリース iOS v1.0.1"
                 },
                 "icon": "server",
                 "tone": "info",
@@ -130,10 +130,10 @@
                             "jp": "iOS App Store"
                         },
                         "status": {
-                            "zh": "Latest Release v1.0.0",
-                            "en": "Latest Release v1.0.0",
-                            "ru": "Последний выпуск v1.0.0",
-                            "jp": "最新リリース v1.0.0"
+                            "zh": "Latest Release v1.0.1",
+                            "en": "Latest Release v1.0.1",
+                            "ru": "Последний выпуск v1.0.1",
+                            "jp": "最新リリース v1.0.1"
                         },
                         "description": {
                             "zh": "通过 App Store 获取，当前 iOS 版本需要使用港区或美区 Apple ID。",
