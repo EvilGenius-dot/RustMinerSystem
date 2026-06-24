@@ -75,10 +75,10 @@
                     "jp": "RustMinerSystem 運用向けのモバイルコンソールです。プールプロキシ、プールノード、サーバー状態、ポート、ウォレット、マイナー、ハッシュレートデータを確認できます。"
                 },
                 "status": {
-                    "zh": "应用暂未上线",
-                    "en": "App not released yet",
-                    "ru": "Приложение пока не выпущено",
-                    "jp": "アプリはまだ公開されていません"
+                    "zh": "Latest Release iOS v1.0.0",
+                    "en": "Latest Release iOS v1.0.0",
+                    "ru": "Последний выпуск iOS v1.0.0",
+                    "jp": "最新リリース iOS v1.0.0"
                 },
                 "icon": "server",
                 "tone": "info",
@@ -124,31 +124,45 @@
                     {
                         "key": "ios",
                         "label": {
-                            "zh": "iOS",
-                            "en": "iOS",
-                            "ru": "iOS",
-                            "jp": "iOS"
+                            "zh": "iOS App Store",
+                            "en": "iOS App Store",
+                            "ru": "iOS App Store",
+                            "jp": "iOS App Store"
                         },
                         "status": {
-                            "zh": "暂未上线",
-                            "en": "Not released",
-                            "ru": "Пока не выпущено",
-                            "jp": "未公開"
+                            "zh": "Latest Release v1.0.0",
+                            "en": "Latest Release v1.0.0",
+                            "ru": "Последний выпуск v1.0.0",
+                            "jp": "最新リリース v1.0.0"
                         },
                         "description": {
-                            "zh": "App Store 链接准备中，正式发布后会补齐下载入口。",
-                            "en": "The App Store link is being prepared and will be added after the official release.",
-                            "ru": "Ссылка на App Store готовится и будет добавлена после официального выпуска.",
-                            "jp": "App Store リンクは準備中です。正式公開後にダウンロード入口を追加します。"
+                            "zh": "通过 App Store 获取，当前 iOS 版本需要使用港区或美区 Apple ID。",
+                            "en": "Get it through the App Store. The current iOS version requires a Hong Kong or US Apple ID.",
+                            "ru": "Получите приложение через App Store. Текущая версия iOS требует Apple ID региона Гонконг или США.",
+                            "jp": "App Store から入手できます。現在の iOS 版は香港または米国リージョンの Apple ID が必要です。"
                         },
                         "icon": "ios",
                         "stateLabel": {
-                            "zh": "暂未上线",
-                            "en": "Not released",
-                            "ru": "Пока не выпущено",
-                            "jp": "未公開"
+                            "zh": "已上线",
+                            "en": "Released",
+                            "ru": "Выпущено",
+                            "jp": "公開済み"
                         },
-                        "actions": []
+                        "actions": [
+                            {
+                                "key": "appStore",
+                                "label": {
+                                    "zh": "前往 App Store",
+                                    "en": "Open App Store",
+                                    "ru": "Открыть App Store",
+                                    "jp": "App Store を開く"
+                                },
+                                "url": "https://apps.apple.com/us/app/rustminersystem/id6757086951",
+                                "icon": "download",
+                                "target": "_blank",
+                                "rel": "noopener noreferrer"
+                            }
+                        ]
                     },
                     {
                         "key": "android",
