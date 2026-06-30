@@ -20,6 +20,12 @@
   <a href="https://discord.gg/xpjRnv8wpX">
     <img src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white" alt="Discord">
   </a>
+  <a href="https://x.com/rustminersystem">
+    <img src="https://img.shields.io/badge/X-rustminersystem-000000?logo=x&logoColor=white" alt="X">
+  </a>
+  <a href="https://www.reddit.com/r/RustMinerSystem/">
+    <img src="https://img.shields.io/badge/Reddit-RustMinerSystem-FF4500?logo=reddit&logoColor=white" alt="Reddit">
+  </a>
 </p>
 
 <p>
@@ -176,6 +182,12 @@ Use the following channels to get updates, discuss usage questions, or request a
   </a>
   <a href="https://discord.gg/xpjRnv8wpX">
     <img src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white" alt="Discord">
+  </a>
+  <a href="https://x.com/rustminersystem">
+    <img src="https://img.shields.io/badge/X-rustminersystem-000000?logo=x&logoColor=white" alt="X">
+  </a>
+  <a href="https://www.reddit.com/r/RustMinerSystem/">
+    <img src="https://img.shields.io/badge/Reddit-RustMinerSystem-FF4500?logo=reddit&logoColor=white" alt="Reddit">
   </a>
   <a href="https://github.com/EvilGenius-dot/RustMinerSystem/releases">
     <img src="https://img.shields.io/badge/Releases-Changelog-111827" alt="Releases">
