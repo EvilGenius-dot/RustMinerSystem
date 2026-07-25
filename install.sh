@@ -81,7 +81,8 @@ load_language() {
         prompt_runtime_status="21. View runtime status"
         prompt_install_cli="22. Install CLI tool"
         prompt_uninstall_cli="23. Uninstall CLI tool"
-        prompt_choose_menu="Please choose [1-23]: "
+        prompt_control_api="24. Enable/disable API"
+        prompt_choose_menu="Please choose [1-24]: "
         prompt_choose_short="Please choose"
         prompt_root_no="Please run this script as root!"
         prompt_error_command="Invalid command entered. Please try again."
@@ -96,6 +97,10 @@ load_language() {
         prompt_confirm_cli_install="Please choose whether to continue CLI installation [1-2]: "
         prompt_confirm_cli_uninstall="Type YES to confirm CLI uninstall: "
         prompt_confirm_web_ui_change="Please choose whether to continue [1-2]: "
+        prompt_control_api_question="Enable the control API? RustMinerSystem will restart after this change."
+        prompt_control_api_off="1. Disable API"
+        prompt_control_api_on="2. Enable API"
+        prompt_control_api_choose="Please choose [1-2]: "
 
         menu_group_install="Install & Update"
         menu_group_runtime="Runtime Control"
@@ -180,6 +185,11 @@ load_language() {
         msg_web_ui_enabled="WEB access has been enabled."
         msg_web_ui_disabled="WEB access has been disabled."
         msg_web_ui_disabled_start_tip="WEB access is disabled. Run rustminer to open the CLI tool, or enable WEB access from this install script."
+        msg_control_api_enabled="API has been enabled."
+        msg_control_api_disabled="API has been disabled."
+        msg_control_api_current_status="Current API status"
+        msg_control_api_status_enabled="Enabled"
+        msg_control_api_status_disabled="Disabled"
         msg_tail_hint="Press CTRL+C to stop viewing logs"
         msg_service_log="Viewing systemd service log"
         msg_journalctl_missing="journalctl was not found. This system may not use systemd."
@@ -228,7 +238,8 @@ load_language() {
         prompt_runtime_status="21. 查看运行状态"
         prompt_install_cli="22. 安装命令行工具"
         prompt_uninstall_cli="23. 卸载命令行工具"
-        prompt_choose_menu="请选择 [1-23]："
+        prompt_control_api="24. 开启/关闭API"
+        prompt_choose_menu="请选择 [1-24]："
         prompt_choose_short="请选择"
         prompt_root_no="请使用root用户运行此脚本！"
         prompt_error_command="输入了错误的指令, 请重新输入。"
@@ -243,6 +254,10 @@ load_language() {
         prompt_confirm_cli_install="请选择是否继续安装命令行工具 [1-2]："
         prompt_confirm_cli_uninstall="请输入 YES 确认卸载命令行工具："
         prompt_confirm_web_ui_change="请选择是否继续 [1-2]："
+        prompt_control_api_question="是否开启控制API？修改后 RustMinerSystem 将自动重启。"
+        prompt_control_api_off="1. 关闭API"
+        prompt_control_api_on="2. 开启API"
+        prompt_control_api_choose="请选择 [1-2]："
 
         menu_group_install="安装更新"
         menu_group_runtime="运行控制"
@@ -327,6 +342,11 @@ load_language() {
         msg_web_ui_enabled="WEB 访问已开启。"
         msg_web_ui_disabled="WEB 访问已关闭。"
         msg_web_ui_disabled_start_tip="当前 WEB 访问已关闭。运行 rustminer 可打开命令行工具，如需网页访问请在安装脚本中开启 WEB 访问。"
+        msg_control_api_enabled="API 已开启。"
+        msg_control_api_disabled="API 已关闭。"
+        msg_control_api_current_status="当前 API 状态"
+        msg_control_api_status_enabled="已开启"
+        msg_control_api_status_disabled="未开启"
         msg_tail_hint="按 CTRL+C 退出日志查看"
         msg_service_log="查看systemd服务日志"
         msg_journalctl_missing="未找到journalctl，当前系统可能不是systemd。"
@@ -557,7 +577,7 @@ show_main_menu() {
     printf "%b\n" "${BOLD}${BLUE}+----------------------------------------------------------------+${RESET}"
     print_menu_section "$menu_group_install" "$prompt_install" "$prompt_update" "$prompt_target_version"
     print_menu_section "$menu_group_runtime" "$prompt_start" "$prompt_stop" "$prompt_restart"
-    print_menu_section "$menu_group_settings" "$prompt_port" "$prompt_ulimit" "$prompt_https" "$prompt_enable_web_ui" "$prompt_disable_web_ui" "$prompt_auto_start" "$prompt_disable_auto_start"
+    print_menu_section "$menu_group_settings" "$prompt_port" "$prompt_ulimit" "$prompt_https" "$prompt_enable_web_ui" "$prompt_disable_web_ui" "$prompt_auto_start" "$prompt_disable_auto_start" "$prompt_control_api"
     print_menu_section "$menu_group_logs" "$prompt_service_log" "$prompt_status" "$prompt_error_log" "$prompt_clear_log" "$prompt_web_port"
     print_menu_section "$menu_group_maintenance" "$prompt_uninstall" "$prompt_reset_pwd" "$prompt_runtime_status"
     print_menu_section "$menu_group_cli" "$prompt_install_cli" "$prompt_uninstall_cli"
@@ -748,6 +768,50 @@ enable_web_ui_access() {
 
 disable_web_ui_access() {
     set_web_ui 0
+}
+
+set_control_api() {
+    local choose
+    local enabled
+    local current_status
+
+    if [ "$(getConfig "ENABLE_CONTROL_API")" = "1" ]; then
+        current_status="$msg_control_api_status_enabled"
+    else
+        current_status="$msg_control_api_status_disabled"
+    fi
+
+    printf "%s: %s\n" "$msg_control_api_current_status" "$current_status"
+    echo "$prompt_control_api_question"
+    echo "$prompt_control_api_off"
+    echo "$prompt_control_api_on"
+
+    read -p "$(echo -e "$prompt_control_api_choose")" choose
+
+    case "$choose" in
+    1)
+        enabled=0
+        ;;
+    2)
+        enabled=1
+        ;;
+    *)
+        echo "$prompt_error_command"
+        return 1
+        ;;
+    esac
+
+    stop
+
+    setConfig ENABLE_CONTROL_API "$enabled"
+
+    start
+
+    if [ "$enabled" = "1" ]; then
+        echo "$msg_control_api_enabled"
+    else
+        echo "$msg_control_api_disabled"
+    fi
 }
 
 set_https() {
@@ -1163,9 +1227,9 @@ setConfig() {
         echo "ENABLE_WEB_UI=1" >> "$PATH_CONFIG"
     fi
 
-    if grep -q "^$1=" "$PATH_CONFIG"; then
+    if grep -q "^[[:space:]]*$1[[:space:]]*=" "$PATH_CONFIG"; then
         # 如果key已经存在，则修改它的值
-        sed -i "s/^$1=.*/$1=$2/" "$PATH_CONFIG"
+        sed -i "s/^[[:space:]]*$1[[:space:]]*=.*/$1=$2/" "$PATH_CONFIG"
         echo "${msg_config_updated}: $PATH_CONFIG"
     else
         # 如果key不存在，则添加新的key=value行
@@ -1764,11 +1828,11 @@ show_runtime_status() {
     local label_title label_basic label_runtime label_config label_paths label_system
     local label_app label_script_version label_os label_init label_service_name label_service_file
     local label_service_status label_process_status label_process_pids label_autostart
-    local label_web_ui label_web_mode label_web_port label_cli_tool label_cli_launcher
+    local label_web_ui label_web_mode label_web_port label_control_api label_cli_tool label_cli_launcher
     local label_install_dir label_exec_file label_config_file label_nohup label_error_log
     local label_nofile label_file_max label_limit_config label_system_time
     local text_yes text_no text_installed text_not_installed text_present text_missing text_enabled text_disabled text_unknown
-    local web_ui web_tls web_mode web_port service_file_status process_status process_pids autostart_status
+    local web_ui web_tls web_mode web_port control_api service_file_status process_status process_pids autostart_status
     local cli_status cli_launcher_status exec_status config_status install_dir_status nofile_limit fs_file_max
     local limit_config_status system_time
 
@@ -1792,6 +1856,7 @@ show_runtime_status() {
         label_web_ui="WEB 访问"
         label_web_mode="WEB 访问模式"
         label_web_port="WEB 访问端口"
+        label_control_api="控制 API"
         label_cli_tool="命令行工具"
         label_cli_launcher="命令启动脚本"
         label_install_dir="安装目录"
@@ -1832,6 +1897,7 @@ show_runtime_status() {
         label_web_ui="WEB access"
         label_web_mode="WEB mode"
         label_web_port="WEB port"
+        label_control_api="Control API"
         label_cli_tool="CLI tool"
         label_cli_launcher="Command launcher"
         label_install_dir="Install directory"
@@ -1897,6 +1963,13 @@ show_runtime_status() {
 
     web_port=$(value_or_unknown "$(getConfig "START_PORT")" "$text_unknown")
 
+    control_api=$(getConfig "ENABLE_CONTROL_API")
+    if [ "$control_api" = "1" ]; then
+        control_api="$text_enabled"
+    else
+        control_api="$text_disabled"
+    fi
+
     if is_cli_installed || { [ -x "$PATH_CLI" ] && is_cli_managed_command; }; then
         cli_status="$text_installed"
     else
@@ -1946,6 +2019,7 @@ show_runtime_status() {
     runtime_status_row "$label_web_ui" "$web_ui"
     runtime_status_row "$label_web_mode" "$web_mode"
     runtime_status_row "$label_web_port" "$web_port"
+    runtime_status_row "$label_control_api" "$control_api"
     runtime_status_row "$label_cli_tool" "$cli_status"
     runtime_status_row "$label_cli_launcher" "$cli_launcher_status"
     echo ""
@@ -2054,6 +2128,9 @@ dispatch_menu_choice() {
         ;;
     23)
         uninstall_cli
+        ;;
+    24)
+        set_control_api
         ;;
     *)
         echo "$prompt_error_command"
