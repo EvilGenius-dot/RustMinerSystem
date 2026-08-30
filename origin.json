@@ -1,10 +1,10 @@
 {
-    "version": "5.0.5",
+    "version": "6.0.0",
     "PoolNodeAndroidVersion": "1.0.2",
     "PoolNodeIosVersion": "1.0.2",
     "RustMinerSystemIOSVersion": "1.0.4",
     "RustMinerSystemAndroidVersion": "1.0.4",
-    "RMS": "3.1.10",
+    "RMS": "3.2.0",
     "RustMinerSystemCliVersion": "0.1.0",
     "APP_INFO": {
         "dialog": {
