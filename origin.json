@@ -2,8 +2,8 @@
     "version": "6.0.0",
     "PoolNodeAndroidVersion": "1.0.2",
     "PoolNodeIosVersion": "1.0.2",
-    "RustMinerSystemIOSVersion": "1.0.4",
-    "RustMinerSystemAndroidVersion": "1.0.4",
+    "RustMinerSystemIOSVersion": "1.0.5",
+    "RustMinerSystemAndroidVersion": "1.0.5",
     "RMS": "3.2.0",
     "RustMinerSystemCliVersion": "0.1.0",
     "APP_INFO": {
@@ -75,10 +75,10 @@
                     "jp": "RustMinerSystem 運用向けのモバイルコンソールです。プールプロキシ、プールノード、サーバー状態、ポート、ウォレット、マイナー、ハッシュレートデータを確認できます。"
                 },
                 "status": {
-                    "zh": "Latest Release Android v1.0.4 / iOS v1.0.4",
-                    "en": "Latest Release Android v1.0.4 / iOS v1.0.4",
-                    "ru": "Последний выпуск Android v1.0.4 / iOS v1.0.4",
-                    "jp": "最新リリース Android v1.0.4 / iOS v1.0.4"
+                    "zh": "Latest Release Android v1.0.5 / iOS v1.0.5",
+                    "en": "Latest Release Android v1.0.5 / iOS v1.0.5",
+                    "ru": "Последний выпуск Android v1.0.5 / iOS v1.0.5",
+                    "jp": "最新リリース Android v1.0.5 / iOS v1.0.5"
                 },
                 "icon": "server",
                 "tone": "success",
@@ -130,10 +130,10 @@
                             "jp": "iOS App Store"
                         },
                         "status": {
-                            "zh": "Latest Release v1.0.4",
-                            "en": "Latest Release v1.0.4",
-                            "ru": "Последний выпуск v1.0.4",
-                            "jp": "最新リリース v1.0.4"
+                            "zh": "Latest Release v1.0.5",
+                            "en": "Latest Release v1.0.5",
+                            "ru": "Последний выпуск v1.0.5",
+                            "jp": "最新リリース v1.0.5"
                         },
                         "description": {
                             "zh": "通过 App Store 获取，当前 iOS 版本需要使用港区或美区 Apple ID。",
@@ -173,10 +173,10 @@
                             "jp": "Android APK"
                         },
                         "status": {
-                            "zh": "Latest Release v1.0.4",
-                            "en": "Latest Release v1.0.4",
-                            "ru": "Последний выпуск v1.0.4",
-                            "jp": "最新リリース v1.0.4"
+                            "zh": "Latest Release v1.0.5",
+                            "en": "Latest Release v1.0.5",
+                            "ru": "Последний выпуск v1.0.5",
+                            "jp": "最新リリース v1.0.5"
                         },
                         "description": {
                             "zh": "可直接下载 APK 安装包，安装时按系统安全提示允许本次安装。",
@@ -200,7 +200,7 @@
                                     "ru": "Скачать Android APK",
                                     "jp": "Android APK をダウンロード"
                                 },
-                                "url": "https://github.com/EvilGenius-dot/RustMinerSystem/raw/refs/heads/main/APP/RustMinerSystem/Android/RustMinerSystem1.0.4.apk",
+                                "url": "https://github.com/EvilGenius-dot/RustMinerSystem/raw/refs/heads/main/APP/RustMinerSystem/Android/RustMinerSystem1.0.5.apk",
                                 "icon": "download",
                                 "target": "_blank",
                                 "rel": "noopener noreferrer"
