@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="6.2.0"
+VERSION="6.3.0"
 
 # Customer customization: change this block for white-label builds.
 APP_NAME="RustMinerSystem"
@@ -1071,7 +1071,7 @@ start() {
         fi
 
         if wait_for_process_started "$PATH_EXEC" 10; then
-            clear   
+            clear
             port=$(getConfig "START_PORT")
             https=$(getConfig "ENABLE_WEB_TLS")
             web_ui=$(getConfig "ENABLE_WEB_UI")
@@ -1082,7 +1082,7 @@ start() {
                 show_start_cli_mode_success
                 return
             fi
-            
+
             if [ "$https" = 0 ];then
                 http_t="$msg_http_tip"
                 http_h="http://"
@@ -1193,7 +1193,7 @@ filterResult() {
     else
         echo "!!!!!!!!!!!!!!!ERROR!!!!!!!!!!!!!!!!"
         echo "【${2}】${msg_failed}。"
-	
+
         if [ -z "$3" ];then
             echo "!!!!!!!!!!!!!!!ERROR!!!!!!!!!!!!!!!!"
             exit 1
@@ -1285,7 +1285,7 @@ installapp() {
     disable_firewall
 
     check_process $PATH_EXEC
-    
+
     if [ $? -eq 0 ]; then
         echo "${msg_running_detected}${PATH_EXEC}${msg_must_stop_before_install}"
         echo "${msg_enter_stop_running}${PATH_EXEC}${msg_or_cancel_install}"
