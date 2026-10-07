@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="6.3.2"
+VERSION="6.3.3"
 
 # Customer customization: change this block for white-label builds.
 APP_NAME="RustMinerSystem"
