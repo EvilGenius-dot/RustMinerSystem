@@ -212,6 +212,14 @@ Thanks to the following mining pools for providing technical support within a ce
     <td align="center" width="160">
       <img src="../../image/antpool.png" alt="AntPool" width="100">
     </td>
+    <td align="center" width="160">
+      <a href="https://emcd.io/pool/">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="../../image/emcd-light.svg">
+          <img src="../../image/emcd.svg" alt="EMCD" width="100">
+        </picture>
+      </a>
+    </td>
   </tr>
 </table>
 
